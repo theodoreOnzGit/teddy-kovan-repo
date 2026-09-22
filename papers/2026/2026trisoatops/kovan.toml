@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2026trisoatops"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/papers/stoyer-triso-atops-source-term.pdf"
+
+[classification]
+topics = ["unsorted"]
