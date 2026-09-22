@@ -4,3 +4,7 @@
 [submodule "literature/proprietary"]
 	path = literature/proprietary
 	url = https://github.com/theodoreOnzGit/propreitrary-literature-theodore.git
+[submodule "literature/standard-corpus"]
+	path = literature/standard-corpus
+	url = https://github.com/theodoreOnzGit/reactor-literature.git
+	branch = main
