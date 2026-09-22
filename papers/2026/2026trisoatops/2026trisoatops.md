@@ -5,7 +5,7 @@
 id = "2026trisoatops"
 kind = "paper"
 created = "2026-09-22T08:33:54Z"
-modified = "2026-09-22T08:39:36Z"
+modified = "2026-09-22T14:48:41Z"
 ```
 
 ## Summary
