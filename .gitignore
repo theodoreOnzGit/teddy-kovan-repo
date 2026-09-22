@@ -1,0 +1,11 @@
+# Kovan derived/local state — fully rebuildable, safe to delete
+/.kovan/
+
+# Both corpora (literature/open-corpus, literature/proprietary) are Git
+# submodules, so neither is ignored here: this repository records only which
+# commit of each it uses. The proprietary one is a PRIVATE repository.
+
+# Temporary/editor files
+*.tmp
+*.swp
+*~

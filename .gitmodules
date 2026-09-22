@@ -1,0 +1,6 @@
+[submodule "literature/open-corpus"]
+	path = literature/open-corpus
+	url = https://github.com/theodoreOnzGit/reactor-literature.git
+[submodule "literature/proprietary"]
+	path = literature/proprietary
+	url = https://github.com/theodoreOnzGit/propreitrary-literature-theodore.git

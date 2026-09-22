@@ -1,0 +1,17 @@
+schema_version = 1
+
+[library]
+id = "teddy-kovan-repo"
+name = "Teddy's Kovan"
+
+# The proprietary corpus is a private Git submodule mounted at
+# literature/proprietary (Kovan's restricted-sources folder). URL only, never
+# a credential.
+[private_submodule]
+remote = "https://github.com/theodoreOnzGit/propreitrary-literature-theodore.git"
+
+# Where Kovan's setup finds the two corpus repositories (GitHub issue #255).
+# Both are submodules of this repository.
+[corpora]
+open_remote = "https://github.com/theodoreOnzGit/reactor-literature.git"
+proprietary_remote = "https://github.com/theodoreOnzGit/propreitrary-literature-theodore.git"
