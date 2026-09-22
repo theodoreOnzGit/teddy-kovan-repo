@@ -32,3 +32,25 @@ region = [
 
 so triso atops is mechanistic source term, what is that even?
 
+# Annotation (p4) — Two defects yeah, exposed kernel and SiC defects,
+
+```toml
+[kovan]
+id = "annotation-p4-two-defects-yeah-exposed-kernel-and-sic-defects"
+kind = "annotation"
+created = "2026-09-22T08:50:07Z"
+modified = "2026-09-22T08:50:07Z"
+
+[source]
+page = 4
+region = [
+    0.09731714427471161,
+    0.5508222579956055,
+    0.515007495880127,
+    0.7160031795501709,
+]
+```
+
+Two defects yeah, exposed kernel and SiC defects, result in release of FP. 
+
+Wonder what's the diff
