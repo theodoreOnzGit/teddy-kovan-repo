@@ -75,6 +75,90 @@ region = [
 
 This is where R/B is defined, as release to birth ratio
 
+# Annotation (p6) — Noble Gas Release to Birth Ratio
+
+```toml
+[kovan]
+id = "annotation-p6-noble-gas-release-to-birth-ratio"
+kind = "annotation"
+created = "2026-09-22T15:24:58Z"
+modified = "2026-09-22T15:24:58Z"
+
+[source]
+page = 6
+region = [
+    0.10264689475297928,
+    0.5797637701034546,
+    0.5020760297775269,
+    0.6301416754722595,
+]
+```
+
+Noble Gas Release to Birth Ratio
+
+# Annotation (p6) — Silver release to birth ratio
+
+```toml
+[kovan]
+id = "annotation-p6-silver-release-to-birth-ratio"
+kind = "annotation"
+created = "2026-09-22T15:24:58Z"
+modified = "2026-09-22T15:24:58Z"
+
+[source]
+page = 6
+region = [
+    0.10656359791755676,
+    0.6373960375785828,
+    0.5207343101501465,
+    0.7021335959434509,
+]
+```
+
+Silver release to birth ratio
+
+# Annotation (p6) — fission metal release to birth ratio
+
+```toml
+[kovan]
+id = "annotation-p6-fission-metal-release-to-birth-ratio"
+kind = "annotation"
+created = "2026-09-22T15:24:58Z"
+modified = "2026-09-22T15:24:58Z"
+
+[source]
+page = 6
+region = [
+    0.08305581659078598,
+    0.7172237038612366,
+    0.5168728232383728,
+    0.7862433195114136,
+]
+```
+
+fission metal release to birth ratio
+
+# Annotation (p6) — Note that release to birth ratio of failed
+
+```toml
+[kovan]
+id = "annotation-p6-note-that-release-to-birth-ratio-of-failed"
+kind = "annotation"
+created = "2026-09-22T15:25:45Z"
+modified = "2026-09-22T15:25:45Z"
+
+[source]
+page = 6
+region = [
+    0.08448506891727448,
+    0.7946157455444336,
+    0.5317776799201965,
+    0.8537719249725342,
+]
+```
+
+Note that release to birth ratio of failed fuel and release to birth ratio in a node in the core are different.
+
 # Annotation (p8) — Table 3 - all input variables needed for
 
 ```toml
@@ -82,7 +166,7 @@ This is where R/B is defined, as release to birth ratio
 id = "annotation-p8-table-3-all-input-variables-needed-for"
 kind = "annotation"
 created = "2026-09-22T15:17:53Z"
-modified = "2026-09-22T15:17:59Z"
+modified = "2026-09-22T15:23:59Z"
 
 [source]
 page = 8
