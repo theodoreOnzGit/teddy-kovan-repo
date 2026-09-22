@@ -32,17 +32,3 @@ region = [
 
 so triso atops is mechanistic source term, what is that even?
 
-# Annotation (p3) — SiC defects and exposed kernel can result in
-
-```toml
-[kovan]
-id = "annotation-p3-sic-defects-and-exposed-kernel-can-result-in"
-kind = "annotation"
-created = "2026-09-22T08:40:15Z"
-modified = "2026-09-22T08:40:15Z"
-
-[source]
-page = 3
-```
-
-SiC defects and exposed kernel can result in early unwanted release of FP
