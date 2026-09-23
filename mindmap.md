@@ -66,3 +66,93 @@ source = "artifact:2022laur1720093#annotation-p65-single-level-briet-wigner-repr
 target = "collection:nuclear-engineering/nuclear-data/resonance-representations/slbw"
 kind = "supports"
 ```
+
+# relation: artifact:2022laur1720093#annotation-p68-shape-functions-for-the-slbw supports collection:nuclear-engineering/nuclear-data/resonance-representations/slbw
+
+```toml
+[kovan]
+id = "7510a7ef5c22"
+kind = "relation"
+created = "2026-09-23T02:27:41Z"
+modified = "2026-09-23T02:27:41Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p68-shape-functions-for-the-slbw"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/slbw"
+kind = "supports"
+```
+
+# relation: artifact:2022laur1720093#annotation-p68-mlbw-formula supports collection:nuclear-engineering/nuclear-data/resonance-representations/mlbw
+
+```toml
+[kovan]
+id = "60bd5152866d"
+kind = "relation"
+created = "2026-09-23T02:28:05Z"
+modified = "2026-09-23T02:28:09Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p68-mlbw-formula"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/mlbw"
+kind = "supports"
+```
+
+# relation: artifact:2022laur1720093#annotation-p70-adler-adler-formula related_to collection:nuclear-engineering/nuclear-data/resonance-representations/oudated/adler-adler
+
+```toml
+[kovan]
+id = "a1b8c5043a5d"
+kind = "relation"
+created = "2026-09-23T02:29:10Z"
+modified = "2026-09-23T02:29:10Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p70-adler-adler-formula"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/oudated/adler-adler"
+kind = "related_to"
+```
+
+# relation: artifact:2022laur1720093#annotation-p71-reich-more-representation-formulas supports collection:nuclear-engineering/nuclear-data/resonance-representations/reich-moore
+
+```toml
+[kovan]
+id = "5d67d9a270c2"
+kind = "relation"
+created = "2026-09-23T02:29:44Z"
+modified = "2026-09-23T02:29:49Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p71-reich-more-representation-formulas"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/reich-moore"
+kind = "supports"
+```
+
+# relation: artifact:2022laur1720093#annotation-p76-reich-moore-limited-angular related_to collection:nuclear-engineering/nuclear-data/resonance-representations/reich-moore-limited
+
+```toml
+[kovan]
+id = "601f247b741f"
+kind = "relation"
+created = "2026-09-23T02:30:40Z"
+modified = "2026-09-23T02:30:40Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p76-reich-moore-limited-angular"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/reich-moore-limited"
+kind = "related_to"
+```
+
+# relation: artifact:2022laur1720093#annotation-p77-infinitely-dilute-unresolved-range-parameters related_to collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/infinitely-dilute-unresolved-range
+
+```toml
+[kovan]
+id = "231244861589"
+kind = "relation"
+created = "2026-09-23T02:32:08Z"
+modified = "2026-09-23T02:32:08Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p77-infinitely-dilute-unresolved-range-parameters"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/infinitely-dilute-unresolved-range"
+kind = "related_to"
+```
