@@ -1,0 +1,11 @@
+schema_version = 1
+id = "yuanzhong2002fission"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/yuanzhong2002fission.pdf"
+
+[classification]
+topics = ["unsorted"]

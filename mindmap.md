@@ -201,3 +201,18 @@ source = "artifact:2022laur1720093#annotation-p91-broadr-module"
 target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/broadr"
 kind = "related_to"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p3-this-is-my-source-term-table-for-htr-10 related_to collection:nuclear-engineering/safety/source-term/htr-10/standard-inventory
+
+```toml
+[kovan]
+id = "d98f5f66f125"
+kind = "relation"
+created = "2026-09-23T03:00:10Z"
+modified = "2026-09-23T03:00:10Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p3-this-is-my-source-term-table-for-htr-10"
+target = "collection:nuclear-engineering/safety/source-term/htr-10/standard-inventory"
+kind = "related_to"
+```
