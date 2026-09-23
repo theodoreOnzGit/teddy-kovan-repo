@@ -156,3 +156,33 @@ source = "artifact:2022laur1720093#annotation-p77-infinitely-dilute-unresolved-r
 target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/infinitely-dilute-unresolved-range"
 kind = "related_to"
 ```
+
+# relation: artifact:2022laur1720093#annotation-p85-reconr-instructions-part-2-basically-only-need-temperature related_to collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/input-deck
+
+```toml
+[kovan]
+id = "a9fe36baddfc"
+kind = "relation"
+created = "2026-09-23T02:34:15Z"
+modified = "2026-09-23T02:34:15Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p85-reconr-instructions-part-2-basically-only-need-temperature"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/input-deck"
+kind = "related_to"
+```
+
+# relation: artifact:2022laur1720093#annotation-p85-reconr-instructions-part-2-basically-only-need-temperature supports collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/input-deck
+
+```toml
+[kovan]
+id = "f86cf240cfbd"
+kind = "relation"
+created = "2026-09-23T02:34:41Z"
+modified = "2026-09-23T02:34:41Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p85-reconr-instructions-part-2-basically-only-need-temperature"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/input-deck"
+kind = "supports"
+```
