@@ -1,0 +1,11 @@
+schema_version = 1
+id = "choo2024criticality"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/papers/choo-htr10-criticality.pdf"
+
+[classification]
+topics = ["unsorted"]

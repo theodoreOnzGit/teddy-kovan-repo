@@ -11,3 +11,7 @@ target = "library:concept/nuclear-engineering/scientific-computing/codes/njoy/mo
 [[connection]]
 source = "library:concept/nuclear-engineering/reactor-physics/burnup"
 target = "library:concept/nuclear-engineering/scientific-computing/codes/origen2"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/reactor-systems/htgr/pebble-bed/methods/discrete-element-method"
+target = "library:concept/nuclear-engineering/scientific-computing/codes/lammps"

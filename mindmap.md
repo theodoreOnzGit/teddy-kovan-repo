@@ -246,3 +246,18 @@ source = "artifact:yuanzhong2002fission#annotation-p2-origen2-used-for-htr-10-fp
 target = "collection:nuclear-engineering/scientific-computing/codes/origen2"
 kind = "supports"
 ```
+
+# relation: artifact:choo2024criticality#annotation-p5-this-is-fig-1-dem-lammps-for-htr-10 uses_data_from collection:nuclear-engineering/scientific-computing/codes/lammps
+
+```toml
+[kovan]
+id = "b56445342ea0"
+kind = "relation"
+created = "2026-09-23T05:24:37Z"
+modified = "2026-09-23T05:24:37Z"
+
+[relation]
+source = "artifact:choo2024criticality#annotation-p5-this-is-fig-1-dem-lammps-for-htr-10"
+target = "collection:nuclear-engineering/scientific-computing/codes/lammps"
+kind = "uses_data_from"
+```
