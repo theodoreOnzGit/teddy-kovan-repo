@@ -8,4 +8,7 @@ storage = "local"
 pdf = "../../../literature/open-corpus/theodore-open-corpus/2022laur1720093.pdf"
 
 [classification]
-topics = ["unsorted"]
+topics = [
+    "nuclear-engineering/scientific-computing/codes/njoy",
+    "nuclear-engineering/nuclear-data",
+]
