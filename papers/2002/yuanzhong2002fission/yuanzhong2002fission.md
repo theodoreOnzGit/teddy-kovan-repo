@@ -40,6 +40,31 @@ Cs-134,3.11E+14
 Cs-137,6.92E+14
 Ag-110m,2.16E+12
 ```
+# Annotation (p1) — Thyroid dose and whole body dose, 50 mSv
+
+```toml
+connections = [
+    "368b94d5d524",
+    "fd25ad15c87c",
+]
+
+[kovan]
+id = "annotation-p1-thyroid-dose-and-whole-body-dose-50-msv"
+kind = "annotation"
+created = "2026-09-23T03:33:58Z"
+modified = "2026-09-23T03:34:14Z"
+
+[source]
+page = 1
+region = [
+    0.36537742614746094,
+    0.6247461438179016,
+    0.7473579049110413,
+    0.6430919766426086,
+]
+```
+
+Thyroid dose and whole body dose, 50 mSv and 5 mSv respectively for emergency safety level
 # Annotation (p3) — Table 1, fission product inventories for equilibrium core
 
 ```toml

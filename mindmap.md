@@ -202,4 +202,32 @@ target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules
 kind = "related_to"
 ```
 
+# relation: artifact:yuanzhong2002fission#annotation-p1-thyroid-dose-and-whole-body-dose-50-msv related_to collection:nuclear-engineering/safety/dose-limits/thyroid
 
+```toml
+[kovan]
+id = "368b94d5d524"
+kind = "relation"
+created = "2026-09-23T03:34:07Z"
+modified = "2026-09-23T03:34:07Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p1-thyroid-dose-and-whole-body-dose-50-msv"
+target = "collection:nuclear-engineering/safety/dose-limits/thyroid"
+kind = "related_to"
+```
+
+# relation: artifact:yuanzhong2002fission#annotation-p1-thyroid-dose-and-whole-body-dose-50-msv related_to collection:nuclear-engineering/safety/dose-limits/whole-body
+
+```toml
+[kovan]
+id = "fd25ad15c87c"
+kind = "relation"
+created = "2026-09-23T03:34:14Z"
+modified = "2026-09-23T03:34:14Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p1-thyroid-dose-and-whole-body-dose-50-msv"
+target = "collection:nuclear-engineering/safety/dose-limits/whole-body"
+kind = "related_to"
+```
