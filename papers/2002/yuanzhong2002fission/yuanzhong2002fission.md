@@ -43,16 +43,11 @@ Ag-110m,2.16E+12
 # Annotation (p1) — Thyroid dose and whole body dose, 50 mSv
 
 ```toml
-connections = [
-    "368b94d5d524",
-    "fd25ad15c87c",
-]
-
 [kovan]
 id = "annotation-p1-thyroid-dose-and-whole-body-dose-50-msv"
 kind = "annotation"
 created = "2026-09-23T03:33:58Z"
-modified = "2026-09-23T03:34:14Z"
+modified = "2026-09-23T03:35:22Z"
 
 [source]
 page = 1
@@ -64,7 +59,59 @@ region = [
 ]
 ```
 
-Thyroid dose and whole body dose, 50 mSv and 5 mSv respectively for emergency safety level
+Thyroid dose and whole body dose, 50 mSv and 
+5 mSv respectively for emergency safety level
+
+This is based on Chinese Nuclear Safety Criterion 
+HAD002/03
+# Annotation (p1) — max dose whole body dose was 7.7e-2 mSv
+
+```toml
+[kovan]
+id = "annotation-p1-max-dose-whole-body-dose-was-7-7e-2-msv"
+kind = "annotation"
+created = "2026-09-23T03:36:52Z"
+modified = "2026-09-23T03:38:05Z"
+
+[source]
+page = 1
+region = [
+    0.07609275728464127,
+    0.5839704275131226,
+    0.8438539505004883,
+    0.6295920610427856,
+]
+```
+
+max dose whole body dose 
+
+was 7.7×10−2
+and 2.0×10−1 mSv, 
+thyroid doses only 1.7×10−1 and 1.1 mSv, respectively
+
+This is for depressurisation and water ingress
+# Annotation (p2) — ORIGEN2 used for HTR-10 FP inventory calcs
+
+```toml
+connections = ["17042055a1bd"]
+
+[kovan]
+id = "annotation-p2-origen2-used-for-htr-10-fp-inventory-calcs"
+kind = "annotation"
+created = "2026-09-23T03:39:10Z"
+modified = "2026-09-23T03:40:23Z"
+
+[source]
+page = 2
+region = [
+    0.4731258153915405,
+    0.2026994824409485,
+    0.8688303232192993,
+    0.2533832788467407,
+]
+```
+
+ORIGEN2 used for HTR-10 FP inventory calcs
 # Annotation (p3) — Table 1, fission product inventories for equilibrium core
 
 ```toml

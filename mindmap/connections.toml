@@ -7,3 +7,7 @@
 [[connection]]
 source = "library:concept/nuclear-engineering/nuclear-data/doppler-broadening"
 target = "library:concept/nuclear-engineering/scientific-computing/codes/njoy/modules/broadr"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/reactor-physics/burnup"
+target = "library:concept/nuclear-engineering/scientific-computing/codes/origen2"

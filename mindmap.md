@@ -231,3 +231,18 @@ source = "artifact:yuanzhong2002fission#annotation-p1-thyroid-dose-and-whole-bod
 target = "collection:nuclear-engineering/safety/dose-limits/whole-body"
 kind = "related_to"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p2-origen2-used-for-htr-10-fp-inventory-calcs supports collection:nuclear-engineering/scientific-computing/codes/origen2
+
+```toml
+[kovan]
+id = "17042055a1bd"
+kind = "relation"
+created = "2026-09-23T03:40:23Z"
+modified = "2026-09-23T03:40:32Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p2-origen2-used-for-htr-10-fp-inventory-calcs"
+target = "collection:nuclear-engineering/scientific-computing/codes/origen2"
+kind = "supports"
+```
