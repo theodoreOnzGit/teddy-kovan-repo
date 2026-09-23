@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2026fuel"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/standard-corpus/kovan-standard-open-corpus/nrc/ML13028A421.pdf"
+
+[classification]
+topics = ["unsorted"]

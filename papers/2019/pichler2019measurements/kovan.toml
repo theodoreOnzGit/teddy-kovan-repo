@@ -1,0 +1,11 @@
+schema_version = 1
+id = "pichler2019measurements"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/cc-by/pichler2020-316l-thermophysical-properties.pdf"
+
+[classification]
+topics = ["unsorted"]
