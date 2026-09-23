@@ -52,3 +52,18 @@ source = "artifact:2022laur1720093#annotation-p59-linear-linear-interpolation-us
 target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/linear-interpolation"
 kind = "related_to"
 ```
+
+# relation: artifact:2022laur1720093#annotation-p65-single-level-briet-wigner-representation-with-neutron-elastic related_to collection:nuclear-engineering/nuclear-data/resonance-representations/slbw
+
+```toml
+[kovan]
+id = "c56c0d160a0e"
+kind = "relation"
+created = "2026-09-23T02:22:30Z"
+modified = "2026-09-23T02:22:30Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p65-single-level-briet-wigner-representation-with-neutron-elastic"
+target = "collection:nuclear-engineering/nuclear-data/resonance-representations/slbw"
+kind = "related_to"
+```
