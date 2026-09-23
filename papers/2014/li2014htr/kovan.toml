@@ -1,0 +1,11 @@
+schema_version = 1
+id = "li2014htr"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/li2014htr.pdf"
+
+[classification]
+topics = ["unsorted"]
