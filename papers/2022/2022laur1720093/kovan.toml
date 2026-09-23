@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2022laur1720093"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/2022laur1720093.pdf"
+
+[classification]
+topics = ["unsorted"]
