@@ -1,0 +1,9 @@
+# Kovan mind-map connections.
+#
+# One entry per link the user made between two nodes, written in the
+# direction it was made. The reverse is derived when the map is drawn,
+# so a link is never recorded twice.
+
+[[connection]]
+source = "library:concept/nuclear-engineering/nuclear-data/doppler-broadening"
+target = "library:concept/nuclear-engineering/scientific-computing/codes/njoy/modules/broadr"

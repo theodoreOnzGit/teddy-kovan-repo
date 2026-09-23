@@ -186,3 +186,18 @@ source = "artifact:2022laur1720093#annotation-p85-reconr-instructions-part-2-bas
 target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/reconr/input-deck"
 kind = "supports"
 ```
+
+# relation: artifact:2022laur1720093#annotation-p91-broadr-module related_to collection:nuclear-engineering/scientific-computing/codes/njoy/modules/broadr
+
+```toml
+[kovan]
+id = "61cde5c2e18a"
+kind = "relation"
+created = "2026-09-23T02:38:54Z"
+modified = "2026-09-23T02:38:54Z"
+
+[relation]
+source = "artifact:2022laur1720093#annotation-p91-broadr-module"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/modules/broadr"
+kind = "related_to"
+```
