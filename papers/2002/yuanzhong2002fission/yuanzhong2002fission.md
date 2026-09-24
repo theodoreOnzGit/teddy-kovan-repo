@@ -273,7 +273,7 @@ Leakage from pri circuit, about 1% per day
 id = "annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr"
 kind = "annotation"
 created = "2026-09-24T01:49:56Z"
-modified = "2026-09-24T01:49:56Z"
+modified = "2026-09-24T02:00:58Z"
 
 [source]
 page = 4
@@ -286,7 +286,6 @@ region = [
 ```
 
 Calculation assumptions, 30% per cycle for Rb, Sr, 50% for Ag,Cs, 20% for iodine isotopes
-
 # Annotation (p4) — conservative estimate, 0.95 per cycle for Cs Ag,
 
 ```toml
@@ -315,7 +314,7 @@ conservative estimate, 0.95 per cycle for Cs Ag, 0.3 for Sr and Rb for 20-year l
 id = "annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop"
 kind = "annotation"
 created = "2026-09-24T01:52:02Z"
-modified = "2026-09-24T01:52:02Z"
+modified = "2026-09-24T02:01:44Z"
 
 [source]
 page = 4
@@ -328,17 +327,14 @@ region = [
 ```
 
 Estimate of radioactivity in pri helium in loop at end of 20 year lifetime for HTR-10 (normal operation)
-
 # Annotation (p4) — table 4 - activities on inner surface of
 
 ```toml
-connections = ["bd0ae3b3cbfa"]
-
 [kovan]
 id = "annotation-p4-table-4-activities-on-inner-surface-of"
 kind = "annotation"
 created = "2026-09-24T01:56:53Z"
-modified = "2026-09-24T01:57:18Z"
+modified = "2026-09-24T01:57:45Z"
 
 [source]
 page = 4
@@ -351,3 +347,45 @@ region = [
 ```
 
 table 4 - activities on inner surface of pri circ of HTR-10 after 20 year lifetime
+
+# Annotation (p5) — Table 5, amt of airborne activity in env
+
+```toml
+[kovan]
+id = "annotation-p5-table-5-amt-of-airborne-activity-in-env"
+kind = "annotation"
+created = "2026-09-24T02:04:40Z"
+modified = "2026-09-24T02:04:40Z"
+
+[source]
+page = 5
+region = [
+    0.054269347339868546,
+    0.17798179388046265,
+    0.8494317531585693,
+    0.31570911407470703,
+]
+```
+
+Table 5, amt of airborne activity in env during HTR-10 normal operation conditions
+
+# Annotation (p5) — Dominant source terms for HTR-10 release
+
+```toml
+[kovan]
+id = "annotation-p5-dominant-source-terms-for-htr-10-release"
+kind = "annotation"
+created = "2026-09-24T02:06:10Z"
+modified = "2026-09-24T02:06:10Z"
+
+[source]
+page = 5
+region = [
+    0.07068904489278793,
+    0.32230159640312195,
+    0.4558076560497284,
+    0.4855988323688507,
+]
+```
+
+Dominant source terms for HTR-10 release
