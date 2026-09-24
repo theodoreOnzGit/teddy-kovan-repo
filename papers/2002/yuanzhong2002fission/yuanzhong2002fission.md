@@ -372,11 +372,13 @@ Table 5, amt of airborne activity in env during HTR-10 normal operation conditio
 # Annotation (p5) — Dominant source terms for HTR-10 release
 
 ```toml
+connections = ["8a1ceaa7759d"]
+
 [kovan]
 id = "annotation-p5-dominant-source-terms-for-htr-10-release"
 kind = "annotation"
 created = "2026-09-24T02:06:10Z"
-modified = "2026-09-24T02:06:10Z"
+modified = "2026-09-24T02:13:07Z"
 
 [source]
 page = 5
@@ -389,3 +391,15 @@ region = [
 ```
 
 Dominant source terms for HTR-10 release
+
+1. the activation of the argon in the air in the
+reactor cavity,
+2. the leakage of the primary helium,
+3. the release from the tank for contaminated
+helium,
+4. the release from the vacuuming system for the
+fuel loading and unloading,
+5. the leakage of the steam in the second circuit
+containing tritium,
+6. and the release due to the inspection and
+maintenance for the radio-contaminated equipment.

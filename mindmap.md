@@ -396,3 +396,18 @@ source = "artifact:yuanzhong2002fission#annotation-p4-table-4-activities-on-inne
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
 kind = "supports"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p5-dominant-source-terms-for-htr-10-release supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/major-release-culprits
+
+```toml
+[kovan]
+id = "8a1ceaa7759d"
+kind = "relation"
+created = "2026-09-24T02:13:07Z"
+modified = "2026-09-24T02:13:07Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p5-dominant-source-terms-for-htr-10-release"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/major-release-culprits"
+kind = "supports"
+```
