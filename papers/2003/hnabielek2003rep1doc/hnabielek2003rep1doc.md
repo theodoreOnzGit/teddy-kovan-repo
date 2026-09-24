@@ -157,7 +157,7 @@ B = (1 + v * t / d_0)
 id = "annotation-p9-fission-gas-internal-pressure-p-p-numerator-denominator"
 kind = "annotation"
 created = "2026-09-24T04:39:48Z"
-modified = "2026-09-24T04:45:30Z"
+modified = "2026-09-24T06:03:59Z"
 
 [source]
 page = 9
@@ -184,7 +184,6 @@ F_b = heavy metal burnup (FIMA)
 V_k = kernel volume (m3)
 V_f = void fraction (m3), corresponding to 50% of buffer vol 
 R = Molar gas constant
-
 # Annotation (p10) — f(tau) formula used in eq(4)
 
 ```toml
@@ -292,6 +291,40 @@ region = [
 ```
 
 F_b is burnup
+
+# Fig 1: Function f(tau)
+
+```toml
+[kovan]
+id = "fig-1-function-f-tau"
+kind = "digitised_graph"
+created = "2026-09-24T06:07:35Z"
+modified = "2026-09-24T06:07:35Z"
+
+[source]
+page = 11
+region = [
+    0.1005946546792984,
+    0.0730878934264183,
+    0.927082896232605,
+    0.5000978708267212,
+]
+
+[extraction]
+method = "manual_digitisation"
+figure = "Fig 1: Function f(tau)"
+x_label = "tau"
+y_label = "f(tau)"
+x_axis = "linear scale, px 159.1331787109375 = 0 , px 896.0704345703125 = 2"
+y_axis = "linear scale, px 540.5079345703125 = 0 , px 93.6943359375 = 1"
+digitised_by = "teddy0 via kovan (gui, hand-placed)"
+digitised_at = "2026-09-24T06:07:33Z"
+review = "UNREVIEWED — points not yet human-verified"
+```
+
+```csv
+tau,f(tau)
+```
 
 # Annotation (p12) — relation for thorium dioxide log DS = -
 
