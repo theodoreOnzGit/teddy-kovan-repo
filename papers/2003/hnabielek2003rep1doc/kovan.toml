@@ -1,0 +1,11 @@
+schema_version = 1
+id = "hnabielek2003rep1doc"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/reports/verfondern-nabielek1990-panama-i.pdf"
+
+[classification]
+topics = ["unsorted"]
