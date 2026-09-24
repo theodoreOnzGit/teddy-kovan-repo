@@ -5,7 +5,7 @@
 id = "yuanzhong2002fission"
 kind = "paper"
 created = "2026-09-23T02:54:21Z"
-modified = "2026-09-23T03:54:28Z"
+modified = "2026-09-24T01:40:24Z"
 ```
 
 ## Summary
@@ -133,3 +133,48 @@ Cs-137,6.92E+14
 Ag-110m,2.16E+12
 
 ```
+
+# Annotation (p3) — FRESCO II was used to calculate FP release
+
+```toml
+[kovan]
+id = "annotation-p3-fresco-ii-was-used-to-calculate-fp-release"
+kind = "annotation"
+created = "2026-09-24T01:37:18Z"
+modified = "2026-09-24T01:37:18Z"
+
+[source]
+page = 3
+region = [
+    0.4737251400947571,
+    0.3279358744621277,
+    0.8556199669837952,
+    0.46793755888938904,
+]
+```
+
+FRESCO II was used to calculate FP release
+
+# Annotation (p3) — These describe fuel elements at different temperatures. And
+
+```toml
+connections = ["d67019df24c6"]
+
+[kovan]
+id = "annotation-p3-these-describe-fuel-elements-at-different-temperatures-and"
+kind = "annotation"
+created = "2026-09-24T01:39:09Z"
+modified = "2026-09-24T01:40:33Z"
+
+[source]
+page = 3
+region = [
+    0.4727451801300049,
+    0.1776973307132721,
+    0.8665662407875061,
+    0.3285538852214813,
+]
+```
+
+These describe fuel elements at different temperatures.
+ And what fraction they may find themselves in

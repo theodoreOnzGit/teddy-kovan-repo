@@ -261,3 +261,48 @@ source = "artifact:choo2024criticality#annotation-p5-this-is-fig-1-dem-lammps-fo
 target = "collection:nuclear-engineering/scientific-computing/codes/lammps"
 kind = "uses_data_from"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/dlofc-and-air-ingress
+
+```toml
+[kovan]
+id = "866e8f04f5a0"
+kind = "relation"
+created = "2026-09-24T01:36:14Z"
+modified = "2026-09-24T01:36:14Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/dlofc-and-air-ingress"
+kind = "supports"
+```
+
+# relation: artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/water-ingress
+
+```toml
+[kovan]
+id = "e9a22b7ddf6c"
+kind = "relation"
+created = "2026-09-24T01:36:23Z"
+modified = "2026-09-24T01:36:23Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/water-ingress"
+kind = "supports"
+```
+
+# relation: artifact:yuanzhong2002fission#annotation-p3-these-describe-fuel-elements-at-different-temperatures-and supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution
+
+```toml
+[kovan]
+id = "d67019df24c6"
+kind = "relation"
+created = "2026-09-24T01:40:33Z"
+modified = "2026-09-24T01:40:37Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p3-these-describe-fuel-elements-at-different-temperatures-and"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution"
+kind = "supports"
+```
