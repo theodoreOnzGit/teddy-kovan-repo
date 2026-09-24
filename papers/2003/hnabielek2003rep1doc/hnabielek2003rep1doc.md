@@ -292,33 +292,33 @@ region = [
 
 F_b is burnup
 
-# Fig 1: Function f(tau)
+# Fig 1
 
 ```toml
 [kovan]
-id = "fig-1-function-f-tau"
+id = "fig-1"
 kind = "digitised_graph"
-created = "2026-09-24T06:07:35Z"
-modified = "2026-09-24T06:07:35Z"
+created = "2026-09-24T06:29:17Z"
+modified = "2026-09-24T06:29:17Z"
 
 [source]
 page = 11
 region = [
-    0.1005946546792984,
-    0.0730878934264183,
-    0.927082896232605,
-    0.5000978708267212,
+    0.122466079890728,
+    0.10120293498039246,
+    0.9053879976272583,
+    0.49447160959243774,
 ]
 
 [extraction]
 method = "manual_digitisation"
-figure = "Fig 1: Function f(tau)"
+figure = "Fig 1"
 x_label = "tau"
 y_label = "f(tau)"
-x_axis = "linear scale, px 159.1331787109375 = 0 , px 896.0704345703125 = 2"
-y_axis = "linear scale, px 540.5079345703125 = 0 , px 93.6943359375 = 1"
+x_axis = "linear scale, px 131.4627685546875 = 0 , px 871.324462890625 = 2"
+y_axis = "linear scale, px 491.855224609375 = 0 , px 119.83934020996094 = 1"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
-digitised_at = "2026-09-24T06:07:33Z"
+digitised_at = "2026-09-24T06:29:16Z"
 review = "UNREVIEWED — points not yet human-verified"
 ```
 
