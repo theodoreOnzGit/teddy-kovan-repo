@@ -366,3 +366,18 @@ source = "artifact:yuanzhong2002fission#annotation-p4-calculation-assumptions-30
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop"
 kind = "supports"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10
+
+```toml
+[kovan]
+id = "2909009f1f8f"
+kind = "relation"
+created = "2026-09-24T01:54:00Z"
+modified = "2026-09-24T01:54:00Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
+kind = "related_to"
+```

@@ -269,13 +269,11 @@ Leakage from pri circuit, about 1% per day
 # Annotation (p4) — Calculation assumptions, 30% per cycle for Rb, Sr,
 
 ```toml
-connections = ["f70733589bb5"]
-
 [kovan]
 id = "annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr"
 kind = "annotation"
 created = "2026-09-24T01:49:56Z"
-modified = "2026-09-24T01:50:17Z"
+modified = "2026-09-24T01:49:56Z"
 
 [source]
 page = 4
@@ -288,3 +286,47 @@ region = [
 ```
 
 Calculation assumptions, 30% per cycle for Rb, Sr, 50% for Ag,Cs, 20% for iodine isotopes
+
+# Annotation (p4) — conservative estimate, 0.95 per cycle for Cs Ag,
+
+```toml
+[kovan]
+id = "annotation-p4-conservative-estimate-0-95-per-cycle-for-cs-ag"
+kind = "annotation"
+created = "2026-09-24T01:51:24Z"
+modified = "2026-09-24T01:51:24Z"
+
+[source]
+page = 4
+region = [
+    0.05428960174322128,
+    0.780741810798645,
+    0.45038679242134094,
+    0.8574442863464355,
+]
+```
+
+conservative estimate, 0.95 per cycle for Cs Ag, 0.3 for Sr and Rb for 20-year lifetime of full power operation
+
+# Annotation (p4) — Estimate of radioactivity in pri helium in loop
+
+```toml
+connections = ["2909009f1f8f"]
+
+[kovan]
+id = "annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop"
+kind = "annotation"
+created = "2026-09-24T01:52:02Z"
+modified = "2026-09-24T01:54:00Z"
+
+[source]
+page = 4
+region = [
+    0.46652063727378845,
+    0.35714083909988403,
+    0.8482193350791931,
+    0.4935090243816376,
+]
+```
+
+Estimate of radioactivity in pri helium in loop at end of 20 year lifetime for HTR-10 (normal operation)
