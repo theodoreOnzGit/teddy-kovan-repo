@@ -180,13 +180,11 @@ These describe fuel elements at different temperatures.
 # Annotation (p3) — Note the mass balance inside the Helium Circuit
 
 ```toml
-connections = ["dad9359ac7fa"]
-
 [kovan]
 id = "annotation-p3-note-the-mass-balance-inside-the-helium-circuit"
 kind = "annotation"
 created = "2026-09-24T01:41:28Z"
-modified = "2026-09-24T01:43:56Z"
+modified = "2026-09-24T01:41:28Z"
 
 [source]
 page = 3
@@ -199,3 +197,94 @@ region = [
 ```
 
 Note the mass balance inside the Helium Circuit
+
+# Annotation (p3) — Table 2 - release rate of important FP
+
+```toml
+[kovan]
+id = "annotation-p3-table-2-release-rate-of-important-fp"
+kind = "annotation"
+created = "2026-09-24T01:45:23Z"
+modified = "2026-09-24T01:45:23Z"
+
+[source]
+page = 3
+region = [
+    0.06057080253958702,
+    0.6852193474769592,
+    0.8663562536239624,
+    0.9083076119422913,
+]
+```
+
+Table 2 - release rate of important FP from equilibrium core (i wonder what time though)
+
+# Annotation (p4) — cation system are almost 100%. For calculating the
+
+```toml
+[kovan]
+id = "annotation-p4-cation-system-are-almost-100-for-calculating-the"
+kind = "annotation"
+created = "2026-09-24T01:46:19Z"
+modified = "2026-09-24T01:47:01Z"
+
+[source]
+page = 4
+region = [
+    0.04484523832798004,
+    0.290994256734848,
+    0.45258891582489014,
+    0.38666486740112305,
+]
+```
+
+Purification system efficiencies near 100%
+
+For calculation purposes, the purification
+effi ciencies are conservatively set as 99% for I, Kr,
+Xe, C, tritium isotopes, and 90% for Sr, Ag, Cs,
+Rb isotopes.
+
+# Annotation (p4) — Leakage from pri circuit, about 1% per day
+
+```toml
+[kovan]
+id = "annotation-p4-leakage-from-pri-circuit-about-1-per-day"
+kind = "annotation"
+created = "2026-09-24T01:48:33Z"
+modified = "2026-09-24T01:49:12Z"
+
+[source]
+page = 4
+region = [
+    0.07624359428882599,
+    0.39078402519226074,
+    0.44082111120224,
+    0.42768678069114685,
+]
+```
+
+Leakage from pri circuit, about 1% per day
+
+# Annotation (p4) — Calculation assumptions, 30% per cycle for Rb, Sr,
+
+```toml
+connections = ["f70733589bb5"]
+
+[kovan]
+id = "annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr"
+kind = "annotation"
+created = "2026-09-24T01:49:56Z"
+modified = "2026-09-24T01:50:17Z"
+
+[source]
+page = 4
+region = [
+    0.07141450047492981,
+    0.5223913788795471,
+    0.43837010860443115,
+    0.5949631333351135,
+]
+```
+
+Calculation assumptions, 30% per cycle for Rb, Sr, 50% for Ag,Cs, 20% for iodine isotopes

@@ -321,3 +321,48 @@ source = "artifact:yuanzhong2002fission#annotation-p3-note-the-mass-balance-insi
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit"
 kind = "supports"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p4-cation-system-are-almost-100-for-calculating-the related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system
+
+```toml
+[kovan]
+id = "270dddbafcf6"
+kind = "relation"
+created = "2026-09-24T01:47:29Z"
+modified = "2026-09-24T01:47:29Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p4-cation-system-are-almost-100-for-calculating-the"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
+kind = "related_to"
+```
+
+# relation: artifact:yuanzhong2002fission#annotation-p4-leakage-from-pri-circuit-about-1-per-day related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system
+
+```toml
+[kovan]
+id = "0cb2bbc182c4"
+kind = "relation"
+created = "2026-09-24T01:48:50Z"
+modified = "2026-09-24T01:48:50Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p4-leakage-from-pri-circuit-about-1-per-day"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
+kind = "related_to"
+```
+
+# relation: artifact:yuanzhong2002fission#annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop
+
+```toml
+[kovan]
+id = "f70733589bb5"
+kind = "relation"
+created = "2026-09-24T01:50:17Z"
+modified = "2026-09-24T01:50:17Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop"
+kind = "supports"
+```
