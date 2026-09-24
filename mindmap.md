@@ -306,3 +306,18 @@ source = "artifact:yuanzhong2002fission#annotation-p3-these-describe-fuel-elemen
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution"
 kind = "supports"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p3-note-the-mass-balance-inside-the-helium-circuit supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit
+
+```toml
+[kovan]
+id = "dad9359ac7fa"
+kind = "relation"
+created = "2026-09-24T01:43:56Z"
+modified = "2026-09-24T01:43:56Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p3-note-the-mass-balance-inside-the-helium-circuit"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit"
+kind = "supports"
+```

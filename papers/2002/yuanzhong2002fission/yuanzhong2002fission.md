@@ -158,13 +158,11 @@ FRESCO II was used to calculate FP release
 # Annotation (p3) — These describe fuel elements at different temperatures. And
 
 ```toml
-connections = ["d67019df24c6"]
-
 [kovan]
 id = "annotation-p3-these-describe-fuel-elements-at-different-temperatures-and"
 kind = "annotation"
 created = "2026-09-24T01:39:09Z"
-modified = "2026-09-24T01:40:33Z"
+modified = "2026-09-24T01:40:20Z"
 
 [source]
 page = 3
@@ -178,3 +176,26 @@ region = [
 
 These describe fuel elements at different temperatures.
  And what fraction they may find themselves in
+
+# Annotation (p3) — Note the mass balance inside the Helium Circuit
+
+```toml
+connections = ["dad9359ac7fa"]
+
+[kovan]
+id = "annotation-p3-note-the-mass-balance-inside-the-helium-circuit"
+kind = "annotation"
+created = "2026-09-24T01:41:28Z"
+modified = "2026-09-24T01:43:56Z"
+
+[source]
+page = 3
+region = [
+    0.4723057448863983,
+    0.5266039967536926,
+    0.8685133457183838,
+    0.6830551624298096,
+]
+```
+
+Note the mass balance inside the Helium Circuit

@@ -1,0 +1,4 @@
+schema_version = 1
+id = "sinks"
+kind = "topic"
+name = "sinks"
