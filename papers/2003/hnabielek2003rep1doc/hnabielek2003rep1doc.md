@@ -2506,7 +2506,7 @@ Anneal Time (hrs),Kr 85 Release Fraction
 974.2862463118561,0.3372369071057284
 ```
 
-### Series: FRJ- K11/03 90% FIMA
+### Series: FRJ- K11/03 9.0% FIMA
 
 ```csv
 Anneal Time (hrs),Kr 85 Release Fraction
