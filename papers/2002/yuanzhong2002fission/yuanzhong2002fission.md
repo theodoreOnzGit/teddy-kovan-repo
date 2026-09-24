@@ -372,13 +372,11 @@ Table 5, amt of airborne activity in env during HTR-10 normal operation conditio
 # Annotation (p5) — Dominant source terms for HTR-10 release
 
 ```toml
-connections = ["8a1ceaa7759d"]
-
 [kovan]
 id = "annotation-p5-dominant-source-terms-for-htr-10-release"
 kind = "annotation"
 created = "2026-09-24T02:06:10Z"
-modified = "2026-09-24T02:13:07Z"
+modified = "2026-09-24T02:10:04Z"
 
 [source]
 page = 5
@@ -403,3 +401,134 @@ fuel loading and unloading,
 containing tritium,
 6. and the release due to the inspection and
 maintenance for the radio-contaminated equipment.
+
+# Annotation (p5) — Impt Parameters for atmospheric modelling
+
+```toml
+[kovan]
+id = "annotation-p5-impt-parameters-for-atmospheric-modelling"
+kind = "annotation"
+created = "2026-09-24T02:14:25Z"
+modified = "2026-09-24T02:14:59Z"
+
+[source]
+page = 5
+region = [
+    0.4667661488056183,
+    0.7655825018882751,
+    0.8649777173995972,
+    0.9057347774505615,
+]
+```
+
+Impt Parameters for atmospheric modelling
+40m height chimney
+
+12 m height reactor bilding
+9m/s outlet velocity from chimney
+measurement values 7.5 km from htr-10 site
+# Annotation (p5) — AIRDOS-EPA code for radiation releases
+
+```toml
+[kovan]
+id = "annotation-p5-airdos-epa-code-for-radiation-releases"
+kind = "annotation"
+created = "2026-09-24T02:14:25Z"
+modified = "2026-09-24T02:14:25Z"
+
+[source]
+page = 5
+region = [
+    0.45481184124946594,
+    0.5856501460075378,
+    0.8546340465545654,
+    0.7121135592460632,
+]
+```
+
+AIRDOS-EPA code for radiation releases
+
+# Annotation (p5) — accounted for gamma radiation, inhalation, ingestion and gamma
+
+```toml
+[kovan]
+id = "annotation-p5-accounted-for-gamma-radiation-inhalation-ingestion-and-gamma"
+kind = "annotation"
+created = "2026-09-24T02:14:25Z"
+modified = "2026-09-24T02:14:25Z"
+
+[source]
+page = 5
+region = [
+    0.45952939987182617,
+    0.7077480554580688,
+    0.8337681889533997,
+    0.7653062343597412,
+]
+```
+
+accounted for gamma radiation, inhalation, ingestion and gamma submersion
+
+# Annotation (p6) — Table 6 - consumption food amounts for radioactivity
+
+```toml
+[kovan]
+id = "annotation-p6-table-6-consumption-food-amounts-for-radioactivity"
+kind = "annotation"
+created = "2026-09-24T02:15:50Z"
+modified = "2026-09-24T02:15:50Z"
+
+[source]
+page = 6
+region = [
+    0.06813515722751617,
+    0.7479626536369324,
+    0.4588305950164795,
+    0.9085851907730103,
+]
+```
+
+Table 6 - consumption food amounts for radioactivity ingestion
+
+# Annotation (p7) — Table 7 annotation shows maximum dose in mSv/annum,
+
+```toml
+[kovan]
+id = "annotation-p7-table-7-annotation-shows-maximum-dose-in-msv-annum"
+kind = "annotation"
+created = "2026-09-24T02:19:39Z"
+modified = "2026-09-24T02:19:39Z"
+
+[source]
+page = 7
+region = [
+    0.21997001767158508,
+    0.7077535390853882,
+    0.39196300506591797,
+    0.8977336883544922,
+]
+```
+
+Table 7 annotation shows maximum dose in mSv/annum, maximum azimuthal value at various distances
+of interest is 0.5 and 1.5 km where dose was about 1.1e-04 mSv/annum and 1.4e-04 mSv/annum respectively
+
+# Annotation (p9) — STOERNEU code... from Germany!
+
+```toml
+[kovan]
+id = "annotation-p9-stoerneu-code-from-germany"
+kind = "annotation"
+created = "2026-09-24T02:17:42Z"
+modified = "2026-09-24T02:17:42Z"
+
+[source]
+page = 9
+region = [
+    0.05118556320667267,
+    0.6427913904190063,
+    0.4545554518699646,
+    0.7292340397834778,
+]
+```
+
+STOERNEU code... from Germany!
