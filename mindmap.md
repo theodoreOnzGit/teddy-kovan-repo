@@ -411,3 +411,18 @@ source = "artifact:yuanzhong2002fission#annotation-p5-dominant-source-terms-for-
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/major-release-culprits"
 kind = "supports"
 ```
+
+# relation: artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/triso-failure-fraction
+
+```toml
+[kovan]
+id = "cc6edec73a6c"
+kind = "relation"
+created = "2026-09-24T02:47:58Z"
+modified = "2026-09-24T02:47:58Z"
+
+[relation]
+source = "artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/triso-failure-fraction"
+kind = "related_to"
+```
