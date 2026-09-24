@@ -166,7 +166,7 @@ Note that release to birth ratio of failed fuel and release to birth ratio in a 
 id = "annotation-p8-table-3-all-input-variables-needed-for"
 kind = "annotation"
 created = "2026-09-22T15:17:53Z"
-modified = "2026-09-22T15:23:59Z"
+modified = "2026-09-24T05:23:03Z"
 
 [source]
 page = 8

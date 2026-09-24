@@ -8,4 +8,4 @@ storage = "local"
 pdf = "../../../literature/proprietary/yuanzhong2002fission.pdf"
 
 [classification]
-topics = ["unsorted"]
+topics = ["nuclear-engineering/safety/source-term/htr-10/standard-inventory"]

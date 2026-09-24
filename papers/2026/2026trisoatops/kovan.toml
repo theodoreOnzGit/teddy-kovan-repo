@@ -8,4 +8,7 @@ storage = "local"
 pdf = "../../../literature/proprietary/papers/stoyer-triso-atops-source-term.pdf"
 
 [classification]
-topics = ["nuclear-engineering/fuel-and-materials/triso/codes/triso-atops"]
+topics = [
+    "nuclear-engineering/fuel-and-materials/triso/codes/triso-atops",
+    "nuclear-engineering/scientific-computing/codes/triso-atops",
+]
