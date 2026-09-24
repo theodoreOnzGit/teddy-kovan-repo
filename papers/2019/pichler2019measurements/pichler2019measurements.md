@@ -37,7 +37,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -84,7 +83,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -131,7 +129,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -178,7 +175,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -225,7 +221,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -271,7 +266,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -317,7 +311,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -363,7 +356,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -409,7 +401,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
@@ -455,7 +446,6 @@ x_axis = "linear scale, px 126.08953857421875 = 500 , px 726.8424072265625 = 300
 y_axis = "linear scale, px 497.1036376953125 = 1 , px 32.66864013671875 = 1.8"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T03:03:24Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv

@@ -106,7 +106,7 @@ phi_0 ballpark figure is 6.0e-5
 id = "annotation-p8-this-is-the-pressure-vessel-model-phi-1-t-t"
 kind = "annotation"
 created = "2026-09-24T04:37:47Z"
-modified = "2026-09-24T04:37:47Z"
+modified = "2026-09-24T06:32:15Z"
 
 [source]
 page = 8
@@ -124,7 +124,6 @@ phi_1 (t,T) = 1 - exp( -ln 2 * (sigma_t/sigma_o)^m)
 
 sigma_t = stress in SiC layer due to internal gas pressure 
 sigma_o = SiC tensile strength at end of irradiation
-
 # Annotation (p9) — tensile stress formula sigma_t = A * B
 
 ```toml
@@ -184,36 +183,6 @@ F_b = heavy metal burnup (FIMA)
 V_k = kernel volume (m3)
 V_f = void fraction (m3), corresponding to 50% of buffer vol 
 R = Molar gas constant
-# Annotation (p10) — f(tau) formula used in eq(4)
-
-```toml
-[kovan]
-id = "annotation-p10-f-tau-formula-used-in-eq-4"
-kind = "annotation"
-created = "2026-09-24T04:47:23Z"
-modified = "2026-09-24T04:49:26Z"
-
-[source]
-page = 10
-region = [
-    0.15379303693771362,
-    0.7245659828186035,
-    0.9365618228912354,
-    0.9562377333641052,
-]
-```
-
-f(tau) formula used in eq(4)
-
-f_tau = 1 - 6/tau * summation term
-
-summation term = sum (from 1 to infty) (1 - numerator/denominator)
-
-numerator = exp( - n^2 * pi^2 * tau)
-denominator = n^4 * pi^4
-
-numerator is terminated after 1000 terms, or if two consective 
-summations differ by no more than 1e-20
 # Annotation (p10) — Equation 4 relative fraction of fission gas release
 
 ```toml
@@ -248,7 +217,7 @@ numerator = (tau_i + tau_a) * f (tau_i + tau_a) - tau_a * f (tau_a)
 id = "annotation-p11-tau-i-ds-t-b-t-b-tau-a"
 kind = "annotation"
 created = "2026-09-24T04:57:51Z"
-modified = "2026-09-24T05:05:11Z"
+modified = "2026-09-24T06:30:45Z"
 
 [source]
 page = 11
@@ -291,40 +260,6 @@ region = [
 ```
 
 F_b is burnup
-
-# Fig 1
-
-```toml
-[kovan]
-id = "fig-1"
-kind = "digitised_graph"
-created = "2026-09-24T06:29:17Z"
-modified = "2026-09-24T06:29:17Z"
-
-[source]
-page = 11
-region = [
-    0.122466079890728,
-    0.10120293498039246,
-    0.9053879976272583,
-    0.49447160959243774,
-]
-
-[extraction]
-method = "manual_digitisation"
-figure = "Fig 1"
-x_label = "tau"
-y_label = "f(tau)"
-x_axis = "linear scale, px 131.4627685546875 = 0 , px 871.324462890625 = 2"
-y_axis = "linear scale, px 491.855224609375 = 0 , px 119.83934020996094 = 1"
-digitised_by = "teddy0 via kovan (gui, hand-placed)"
-digitised_at = "2026-09-24T06:29:16Z"
-review = "UNREVIEWED — points not yet human-verified"
-```
-
-```csv
-tau,f(tau)
-```
 
 # Annotation (p12) — relation for thorium dioxide log DS = -
 
@@ -442,7 +377,6 @@ x_axis = "linear scale, px 219.39593505859375 = 3 , px 741.849609375 = 10"
 y_axis = "log scale, px 651.8126220703125 = 0.000000000001 , px 61.447540283203125 = 0.0001"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-24T05:19:54Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ### start of data series
@@ -791,7 +725,6 @@ x_axis = "linear scale, px 189.30364990234375 = 800 , px 652.0732421875 = 2200"
 y_axis = "linear scale, px 555.619384765625 = 0 , px 92.12059020996094 = 0.7"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-24T06:27:09Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ### start of data series
@@ -1254,7 +1187,6 @@ x_axis = "linear scale, px 103.310302734375 = 0 , px 927.209228515625 = 500"
 y_axis = "linear scale, px 496.6510009765625 = 0 , px 161.33338928222656 = 1"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-24T06:19:31Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ### start of data series

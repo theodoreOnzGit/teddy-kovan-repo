@@ -57,7 +57,6 @@ x_axis = "linear scale, px 46.62226486206055 = 0 , px 402.898193359375 = 25"
 y_axis = "linear scale, px 246.97146606445313 = 0 , px 17.482725143432617 = 35"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
 digitised_at = "2026-09-23T05:26:52Z"
-review = "UNREVIEWED — points not yet human-verified"
 ```
 
 ```csv
