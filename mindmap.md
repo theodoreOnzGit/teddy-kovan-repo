@@ -381,3 +381,18 @@ source = "artifact:yuanzhong2002fission#annotation-p4-estimate-of-radioactivity-
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
 kind = "related_to"
 ```
+
+# relation: artifact:yuanzhong2002fission#annotation-p4-table-4-activities-on-inner-surface-of supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10
+
+```toml
+[kovan]
+id = "bd0ae3b3cbfa"
+kind = "relation"
+created = "2026-09-24T01:57:18Z"
+modified = "2026-09-24T01:57:18Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#annotation-p4-table-4-activities-on-inner-surface-of"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
+kind = "supports"
+```

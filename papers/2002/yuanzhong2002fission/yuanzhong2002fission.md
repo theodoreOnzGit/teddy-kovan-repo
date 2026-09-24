@@ -311,13 +311,11 @@ conservative estimate, 0.95 per cycle for Cs Ag, 0.3 for Sr and Rb for 20-year l
 # Annotation (p4) — Estimate of radioactivity in pri helium in loop
 
 ```toml
-connections = ["2909009f1f8f"]
-
 [kovan]
 id = "annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop"
 kind = "annotation"
 created = "2026-09-24T01:52:02Z"
-modified = "2026-09-24T01:54:00Z"
+modified = "2026-09-24T01:52:02Z"
 
 [source]
 page = 4
@@ -330,3 +328,26 @@ region = [
 ```
 
 Estimate of radioactivity in pri helium in loop at end of 20 year lifetime for HTR-10 (normal operation)
+
+# Annotation (p4) — table 4 - activities on inner surface of
+
+```toml
+connections = ["bd0ae3b3cbfa"]
+
+[kovan]
+id = "annotation-p4-table-4-activities-on-inner-surface-of"
+kind = "annotation"
+created = "2026-09-24T01:56:53Z"
+modified = "2026-09-24T01:57:18Z"
+
+[source]
+page = 4
+region = [
+    0.466693252325058,
+    0.6713855862617493,
+    0.8582116961479187,
+    0.9055628776550293,
+]
+```
+
+table 4 - activities on inner surface of pri circ of HTR-10 after 20 year lifetime
