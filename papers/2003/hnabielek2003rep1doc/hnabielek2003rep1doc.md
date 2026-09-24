@@ -5,21 +5,23 @@
 id = "hnabielek2003rep1doc"
 kind = "paper"
 created = "2026-09-24T02:41:10Z"
-modified = "2026-09-24T02:41:10Z"
+modified = "2026-09-24T03:20:30Z"
 ```
 
 ## Summary
-
 # Annotation (p1) — PANAMA for TRISO particles (Germany)
 
 ```toml
-connections = ["cc6edec73a6c"]
+connections = [
+    "cc6edec73a6c",
+    "c1e533787ada",
+]
 
 [kovan]
 id = "annotation-p1-panama-for-triso-particles-germany"
 kind = "annotation"
 created = "2026-09-24T02:41:37Z"
-modified = "2026-09-24T02:47:58Z"
+modified = "2026-09-24T03:20:40Z"
 
 [source]
 page = 1

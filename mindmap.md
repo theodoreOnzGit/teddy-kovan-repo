@@ -426,3 +426,18 @@ source = "artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/triso-failure-fraction"
 kind = "related_to"
 ```
+
+# relation: artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany related_to collection:nuclear-engineering/scientific-computing/codes/panama
+
+```toml
+[kovan]
+id = "c1e533787ada"
+kind = "relation"
+created = "2026-09-24T03:20:40Z"
+modified = "2026-09-24T03:20:40Z"
+
+[relation]
+source = "artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany"
+target = "collection:nuclear-engineering/scientific-computing/codes/panama"
+kind = "related_to"
+```

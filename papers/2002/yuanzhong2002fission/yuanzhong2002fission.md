@@ -226,7 +226,7 @@ Table 2 - release rate of important FP from equilibrium core (i wonder what time
 id = "annotation-p4-cation-system-are-almost-100-for-calculating-the"
 kind = "annotation"
 created = "2026-09-24T01:46:19Z"
-modified = "2026-09-24T01:47:01Z"
+modified = "2026-09-24T03:10:06Z"
 
 [source]
 page = 4
@@ -244,7 +244,6 @@ For calculation purposes, the purification
 effi ciencies are conservatively set as 99% for I, Kr,
 Xe, C, tritium isotopes, and 90% for Sr, Ag, Cs,
 Rb isotopes.
-
 # Annotation (p4) — Leakage from pri circuit, about 1% per day
 
 ```toml
@@ -434,7 +433,7 @@ measurement values 7.5 km from htr-10 site
 id = "annotation-p5-airdos-epa-code-for-radiation-releases"
 kind = "annotation"
 created = "2026-09-24T02:14:25Z"
-modified = "2026-09-24T02:14:25Z"
+modified = "2026-09-24T03:06:06Z"
 
 [source]
 page = 5
@@ -447,7 +446,6 @@ region = [
 ```
 
 AIRDOS-EPA code for radiation releases
-
 # Annotation (p5) — accounted for gamma radiation, inhalation, ingestion and gamma
 
 ```toml
