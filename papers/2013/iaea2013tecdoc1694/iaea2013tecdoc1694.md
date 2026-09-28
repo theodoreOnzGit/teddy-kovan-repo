@@ -457,3 +457,288 @@ Material,SA387-11
 ```
 
 ### end of series
+
+# Annotation (p20) — Decay heat removal system is cooled by water
+
+```toml
+[kovan]
+id = "annotation-p20-decay-heat-removal-system-is-cooled-by-water"
+kind = "annotation"
+created = "2026-09-28T08:19:53Z"
+modified = "2026-09-28T08:19:53Z"
+
+[source]
+page = 20
+region = [
+    0.10587277263402939,
+    0.6482262015342712,
+    0.9170511960983276,
+    0.8223027586936951,
+]
+```
+
+Decay heat removal system is cooled by water and air, taken to be around 50C
+
+# Table 2.4 Heat conduction model specifications
+
+```toml
+[kovan]
+id = "table-2-4-heat-conduction-model-specifications"
+kind = "digitised_table"
+created = "2026-09-28T08:21:06Z"
+modified = "2026-09-28T08:21:06Z"
+
+[source]
+page = 22
+region = [
+    0.09219291061162949,
+    0.1423957496881485,
+    0.9204729199409485,
+    0.9041910171508789,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 2.4 Heat conduction model specifications"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T08:21:06Z"
+```
+
+### start of data series
+
+### Series: Table 2.4 Heat conduction model specifications
+
+```csv
+No.,Zone,Material,Mass fraction
+1,Pebble bed,Fuel elements,0.61
+2,Side reflector without flow path,Graphite,1.0
+3,Side reflector with control rod channels,Graphite,0.793
+4,Side reflector with coolant flow paths,Graphite,0.862
+5,Carbon brick insulator,Carbon bricks 1.0,
+6,RPV,Steel,1.0
+7,Core vessel,Steel,1.0
+8,Upper bottom reflector with flow paths,Graphite,0.769
+9,Lower bottom reflector with flow paths,Graphite,0.932
+10,Reactor bottom steel supporting structure 1,Steel,0.5
+11,Reactor bottom steel supporting structure 2,Steel,1.0
+12,Reactor bottom annular cold helium flow path,Helium,0.01
+13,Leaking flow zone in steel structures,Steel,0.96
+14,Side reflector without coolant flow path,Graphite,1.0
+15,Concrete,Concrete,1.0
+16,Side fluid boundary,1.0,
+17,Thermal insulation,1.0,
+18,Helium cavity inside RPV,Helium,1.0
+19,Gas plenum at core entry,Helium,1.0
+20,Reactor bottom gas rounding flow paths,Helium,1.0
+21,Bottom helium cavity inside RPV,Helium,1.0
+22,Null,,
+23,Side helium gap between core vessel and RPV,Helium,1.0
+24,Air cavity outside RPV,Air,1.0
+25,Hot gas plenum at core bottom exit,Helium,1.0
+26,Bottom air cavity outside RPV,Air,1.0
+27,Side cavity of reactor cavity,Air,1.0
+28,Small plenum in bottom reflector,Helium,1.0
+29,Entry throttle of cooling gas for fuel discharging tube Graphite,0.993,
+30,Exit throttle of cooling gas for control rods,Graphite,0.998
+31,Bottom reflector without flow paths,Graphite,1.0
+32,Null,,
+33,Null,,
+34,Null,,
+35,Reactor bottom fluid boundary,,
+36,Top air cavity outside RPV,Air,1.0
+37,Top air cavity of reactor cavity,Air,1.0
+38,Side helium gap inside core vessel,Helium,1.0
+39,Water cooling panels,,
+40,Helium entry flow path inside RPV,Helium,1.0
+41,Annular flow path inside RPV,Helium,1.0
+42,Air gap outside insulating plates of reactor cavity,Air,1.0
+43,Helium plenum in top reflector,Helium,1.0
+44,Helium flow zone in top reflector,Graphite,0.911
+```
+
+### end of series
+
+# Table 2.5 convection model specification
+
+```toml
+[kovan]
+id = "table-2-5-convection-model-specification"
+kind = "digitised_table"
+created = "2026-09-28T08:21:56Z"
+modified = "2026-09-28T08:21:56Z"
+
+[source]
+page = 24
+region = [
+    0.0777013897895813,
+    0.028692157939076424,
+    0.9633386731147766,
+    0.5478076338768005,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 2.5 convection model specification"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T08:21:56Z"
+```
+
+### start of data series
+
+### Series: Table 2.5 convection model specification
+
+```csv
+No.,Zone,Void Fraction
+1,Pebble bed,0.39
+2,Flow zone in the upper bottom reflector,0.23
+3,Flow zone in the lower bottom reflector,0.068
+4,Hot helium plenum at the core bottom exit,1.0
+5,Cold helium plenum at the core entry,1.0
+6,Non-flowing zone,
+7,Cavity of the RPV bottom closure,1.0
+8,Annular coolant flow path at reactor bottom,0.99
+9,Gas rounding flow path at reactor bottom,1.0
+10,Coolant flow paths in the side reflector,0.138
+11,Entry throttle of cooling gas for the fuel discharging tube,0.0067
+12,Exit throttle of the control rod channels,0.0024
+13,Control rod channels in side reflector,0.207
+14,Helium plenum in the top reflector,1.0
+15,Small plenum in the bottom reflector,1.0
+16,Helium entry flow cavity inside the RPV,1.0
+17,Annular helium flow path inside the RPV,0.99
+18,Flow path zone in the top reflector,0.089
+19,Gap leaking flow zone,0.046
+```
+
+### end of series
+
+# Table 2.6 power distribution of initial core W/cm3
+
+```toml
+[kovan]
+id = "table-2-6-power-distribution-of-initial-core-w-cm3"
+kind = "digitised_table"
+created = "2026-09-28T08:22:45Z"
+modified = "2026-09-28T08:22:45Z"
+
+[source]
+page = 25
+region = [
+    0.08355128765106201,
+    0.04384316876530647,
+    0.9300900101661682,
+    0.41821104288101196,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 2.6 power distribution of initial core W/cm3"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T08:22:45Z"
+```
+
+### start of data series
+
+### Series: Table 2.6 power distribution of initial core W/cm3
+
+```csv
+Z\R( cm),0,6.5,13,19,25,39,50,60,70.5,83.5,90
+0,1.79,1.79,1.79,1.78,1.75,1.71,1.68,1.65,1.63,1.65,
+18,2.12,2.11,2.10,2.08,2.06,2.01,1.95,1.89,1.86,1.89,
+36,2.46,2.45,2.44,2.41,2.35,2.26,2.18,2.10,2.07,2.09,
+54,2.61,2.60,2.58,2.56,2.49,2.43,2.33,2.27,2.22,2.22,
+72,2.78,2.77,2.75,2.72,2.65,2.56,2.46,2.39,2.30,2.30,
+90,2.84,2.84,2.82,2.79,2.71,2.55,2.45,2.33,2.26,2.26,
+108,2.66,2.65,2.63,2.60,2.56,2.49,2.38,2.29,2.22,2.21,
+126,2.49,2.49,2.47,2.44,2.37,2.29,2.19,2.08,2.01,2.00,
+144,2.36,2.35,2.33,2.30,2.22,2.11,2.02,1.93,1.85,1.82,
+162,2.33,2.32,2.29,2.25,2.16,2.02,1.93,1.83,1.73,1.66,
+180,1.53,1.53,1.51,1.48,1.42,1.33,1.27,1.21,1.13,0.0,
+187,,,,,,,,,,,
+```
+
+### end of series
+
+# Fig 2.62 thermohydraulics calculation layout
+
+```toml
+[kovan]
+id = "fig-2-62-thermohydraulics-calculation-layout"
+kind = "digitised_table"
+created = "2026-09-28T08:27:59Z"
+modified = "2026-09-28T08:27:59Z"
+
+[source]
+page = 93
+region = [
+    0.07993916422128677,
+    0.05665404349565506,
+    0.9372957944869995,
+    0.6498501896858215,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Fig 2.62 thermohydraulics calculation layout"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T08:27:59Z"
+```
+
+### start of data series
+
+### Series: Fig 2.62 thermohydraulics calculation layout
+
+```csv
+-740.0,6.5,13.0,19.0,25.0,39.0,50.0,60.0,70.5,83.5,90.0,95.6,108.6,140.6,148.6,167.5,178.8,190.0,194.4,197.0,210.0,218.0,283.4,2835.,258.4,287
+-739.0,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,36
+-411.0,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,36
+-391.0,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,36
+-351.0,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,36
+-343.0,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,64,67,67,67,36
+-219.0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,64,23,68,39,36
+-170.0,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,7,16,64,23,68,39,36
+-130.0,57,57,57,57,57,57,57,57,57,57,58,58,58,58,58,59,59,35,7,22,64,23,68,39,36
+-75.0,56,56,56,56,56,56,56,56,56,56,55,55,55,55,55,59,59,35,7,22,64,23,68,39,36
+-65.0,40,40,40,40,40,40,40,40,40,40,40,40,40,40,55,59,59,35,7,22,64,23,68,39,36
+-55.3,41,41,41,41,41,41,41,41,41,41,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+-40.0,41,41,41,41,41,41,41,41,41,41,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+0.0,18,18,18,18,18,18,18,18,18,18,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+18.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+36.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+54.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+72.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+90.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+108.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+126.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+144.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+162.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+180.0,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+187.5,1,1,1,1,1,1,1,1,1,1,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+195.0,71,71,71,71,77,71,71,77,29,29,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+202.5,71,71,71,71,77,71,71,29,29,29,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+210.0,71,71,71,71,77,71,8,29,29,29,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+217.5,71,71,71,71,77,8,8,29,29,29,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+222.2,71,71,71,71,72,8,8,29,29,29,14,3,52,4,54,60,60,35,7,22,64,23,68,39,36
+227.0,71,71,71,71,72,8,8,29,29,29,14,28,52,4,54,60,60,35,7,22,64,23,68,39,36
+232.0,71,71,71,71,72,26,26,26,26,26,26,26,50,51,53,61,61,35,7,22,64,23,68,39,36
+263.5,71,71,71,71,72,9,9,9,9,9,50,50,50,51,53,61,61,35,7,22,64,23,68,39,36
+295.0,71,71,71,71,72,9,9,9,9,9,50,50,50,51,53,61,61,35,7,22,64,23,68,39,36
+325.0,24,24,24,24,24,24,24,24,24,24,50,50,50,51,53,61,61,35,7,37,64,23,68,39,36
+326.0,73,73,73,73,2,13,49,49,75,49,50,50,50,51,53,61,61,35,7,38,64,23,68,39,36
+327.0,73,73,73,73,2,13,49,49,76,49,50,50,50,51,53,61,61,35,7,38,64,23,68,39,36
+340.0,73,73,73,73,2,13,49,49,49,49,50,50,50,51,53,61,61,35,7,38,64,23,68,39,36
+360.0,73,73,73,73,5,42,44,44,44,44,44,44,44,46,48,48,48,35,7,38,64,23,68,39,36
+400.0,73,73,73,73,5,42,44,44,44,44,44,44,44,46,48,48,48,35,7,38,64,23,68,39,36
+440.0,73,73,73,73,5,42,43,43,43,43,43,43,43,45,47,47,47,35,7,38,64,23,68,39,36
+446.0,74,74,74,74,11,21,30,30,30,30,30,30,30,31,32,32,32,32,7,38,64,23,68,39,36
+461.0,74,74,74,74,11,19,19,19,19,19,19,19,19,19,10,10,10,10,7,38,64,23,68,39,36
+484.0,74,74,74,74,11,12,10,10,10,10,10,10,10,10,10,10,10,10,7,38,64,23,68,39,36
+507.0,27,27,27,27,11,12,10,10,10,10,10,10,10,10,10,10,10,10,7,38,64,23,68,39,36
+657.0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,64,23,68,39,36
+665.0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,64,69,69,69,36
+772.0,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,36
+792.0,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,36
+793.0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,36
+```
+
+### end of series
