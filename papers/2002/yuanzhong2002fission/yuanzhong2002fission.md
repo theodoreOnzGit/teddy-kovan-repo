@@ -444,42 +444,44 @@ region = [
 
 accounted for gamma radiation, inhalation, ingestion and gamma submersion
 
-# Digitised table
+# Table 5
 
 ```toml
 [kovan]
-id = "digitised-table"
+id = "table-5"
 kind = "digitised_table"
-created = "2026-09-28T02:28:26Z"
-modified = "2026-09-28T02:40:57Z"
+created = "2026-09-28T02:47:30Z"
+modified = "2026-09-28T02:47:30Z"
 
 [source]
 page = 5
 region = [
-    0.06338880211114883,
-    0.17342130839824677,
-    0.8534230589866638,
-    0.30872178077697754,
+    0.06792432814836502,
+    0.17838947474956512,
+    0.8580872416496277,
+    0.3064965605735779,
 ]
 
 [extraction]
 method = "pdf_native"
+figure = "Table 5"
 digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
-digitised_at = "2026-09-28T02:28:26Z"
+digitised_at = "2026-09-28T02:47:30Z"
 ```
 
 ### start of data series
 
-### Series: Digitised table
+### Series: Table 5
 
 ```csv
-Nuclide,Kr-83m,Kr-85,Kr-85m,Kr-87,Kr-88,Xe-131m,Xe-133,Xe-133m,Xe-135,Xe-135m
-Activity,5.4×10e9,3.0×106,1.2×109,2.8×109,3.7×109,9. 3×106,2.2×109,8.6×107,2.2×109,1.1×109
-Nuclide,I-131,I-132,I-133,I-134,I-135,Sr-89,Cs-134,Cs-137,Ag-110m,H-3
-Activity,2.1×106,8.2×107,1.6×107,3.5×108,3.5×107,1.9,5.9×102,1.6×103,2.6×101,5.7×109
+Nuclide,Kr-83m,Kr-85m,Kr-85,Kr-87,Kr-88,Xe-131m,Xe-133m,Xe-133,Xe-135m,Xe-135,I-131
+Release Amt,3.8E8,1.4E9,1.4E9,1.6E9,3.2E9,4.6E7,2.9E8,8.5E9,3.9E8,3.8E9,8.4E6
+Nuclide,I-132,I-133,I-134,I-135,Sr-89,Cs-134,Cs-137,Ag-110m,H-3,C-14,Ar-41
+Release Amt,6.5E7,4.0E7,1.7E8,5.0E7,8.1,2.5E3,6.9E3,1.1E2,7.9E10,3.1E7,1.0E11
 ```
 
 ### end of series
+
 # Annotation (p6) — Table 6 - consumption food amounts for radioactivity
 
 ```toml
