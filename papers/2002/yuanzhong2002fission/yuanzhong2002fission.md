@@ -542,11 +542,13 @@ Table 6 - consumption food amounts for radioactivity ingestion
 # Table 7
 
 ```toml
+connections = ["2355ca64e061"]
+
 [kovan]
 id = "table-7"
 kind = "digitised_table"
 created = "2026-09-28T02:50:38Z"
-modified = "2026-09-28T02:50:38Z"
+modified = "2026-09-28T04:04:41Z"
 
 [source]
 page = 7
@@ -574,15 +576,16 @@ Dose (mSv/annum),1.1e-4,1.4e-4,1.3e-4,7.6e-5,4.3e-5,2.5e-5,1.7e-5,1.3e-5,1.1e-5,
 ```
 
 ### end of series
-
 # Table 9
 
 ```toml
+connections = ["cfa89dfb8edc"]
+
 [kovan]
 id = "table-9"
 kind = "digitised_table"
 created = "2026-09-28T03:15:53Z"
-modified = "2026-09-28T03:15:53Z"
+modified = "2026-09-28T04:04:13Z"
 
 [source]
 page = 8
@@ -622,7 +625,6 @@ Distance(km),depressurisation thyroid,depressurisation whole body,water ingress 
 ```
 
 ### end of series
-
 # Table 8
 
 ```toml

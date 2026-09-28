@@ -430,3 +430,33 @@ source = "artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles
 target = "collection:nuclear-engineering/scientific-computing/codes/panama"
 kind = "related_to"
 ```
+
+# relation: artifact:yuanzhong2002fission#table-9 related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress
+
+```toml
+[kovan]
+id = "cfa89dfb8edc"
+kind = "relation"
+created = "2026-09-28T04:04:13Z"
+modified = "2026-09-28T04:04:13Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#table-9"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress"
+kind = "related_to"
+```
+
+# relation: artifact:yuanzhong2002fission#table-7 related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress
+
+```toml
+[kovan]
+id = "2355ca64e061"
+kind = "relation"
+created = "2026-09-28T04:04:41Z"
+modified = "2026-09-28T04:04:41Z"
+
+[relation]
+source = "artifact:yuanzhong2002fission#table-7"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress"
+kind = "related_to"
+```
