@@ -346,6 +346,44 @@ region = [
 
 table 4 - activities on inner surface of pri circ of HTR-10 after 20 year lifetime
 
+# Table 3
+
+```toml
+[kovan]
+id = "table-3"
+kind = "digitised_table"
+created = "2026-09-28T02:54:31Z"
+modified = "2026-09-28T02:54:31Z"
+
+[source]
+page = 4
+region = [
+    0.07277967035770416,
+    0.173448845744133,
+    0.8553190231323242,
+    0.2806207835674286,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 3"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T02:54:31Z"
+```
+
+### start of data series
+
+### Series: Table 3
+
+```csv
+Nuclide,Kr-83m,Kr-85,Kr-85m,Kr-87,Kr-88,Xe-131m,Xe-133,Xe-133m,Xe-135,Xe-135m
+Activity,5.4e8,3.0e6,1.2e9,2.8e9,3.7e9,9. 3×10^6,2.2e9,8.6e7,2.2e9,1.1e9
+Nuclide,I-131,I-132,I-133,I-134,I-135,Sr-89,Cs-134,Cs-137,Ag-110m,H-3
+Activity,2.1e6,8.2e7,1.6e7,3.5e8,3.5e7,1.9,5.9e2,1.6e3,2.6e1,5.7e9
+```
+
+### end of series
+
 # Annotation (p5) — Dominant source terms for HTR-10 release
 
 ```toml
@@ -385,7 +423,7 @@ maintenance for the radio-contaminated equipment.
 id = "annotation-p5-impt-parameters-for-atmospheric-modelling"
 kind = "annotation"
 created = "2026-09-24T02:14:25Z"
-modified = "2026-09-28T02:22:04Z"
+modified = "2026-09-28T02:54:36Z"
 
 [source]
 page = 5
