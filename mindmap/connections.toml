@@ -23,3 +23,15 @@ target = "library:concept/nuclear-engineering/reactor-systems/htgr"
 [[connection]]
 source = "library:concept/nuclear-engineering/fuel-and-materials/triso/codes/triso-atops"
 target = "library:concept/nuclear-engineering/scientific-computing/codes/triso-atops"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/scientific-computing/codes/triso-atops"
+target = "corpus:concept/nuclear-engineering/reactor-systems/htgr"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/scientific-computing/codes/triso-atops"
+target = "library:concept/nuclear-engineering/fuel-and-materials/triso"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/reactor-systems/htgr/pebble-bed/test-reactors"
+target = "library:concept/nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10"
