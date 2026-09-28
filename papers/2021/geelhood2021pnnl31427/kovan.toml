@@ -1,0 +1,11 @@
+schema_version = 1
+id = "geelhood2021pnnl31427"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/geelhood2021pnnl31427.pdf"
+
+[classification]
+topics = ["unsorted"]

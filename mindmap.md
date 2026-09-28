@@ -460,3 +460,18 @@ source = "artifact:yuanzhong2002fission#table-7"
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress"
 kind = "related_to"
 ```
+
+# relation: artifact:geelhood2021pnnl31427#annotation-p15-uco-fuel-properties-here related_to collection:nuclear-engineering/fuel-and-materials/triso
+
+```toml
+[kovan]
+id = "b95b36b752a7"
+kind = "relation"
+created = "2026-09-28T06:10:39Z"
+modified = "2026-09-28T06:10:39Z"
+
+[relation]
+source = "artifact:geelhood2021pnnl31427#annotation-p15-uco-fuel-properties-here"
+target = "collection:nuclear-engineering/fuel-and-materials/triso"
+kind = "related_to"
+```
