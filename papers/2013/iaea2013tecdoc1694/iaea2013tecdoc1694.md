@@ -61,3 +61,29 @@ Loading ratio of fuel balls to dummy balls,57:43
 ```
 
 ### end of series
+
+# Annotation (p18) — Fig 2.4 HTR-10 Reactor horizontal cross section has
+
+```toml
+[kovan]
+id = "annotation-p18-fig-2-4-htr-10-reactor-horizontal-cross-section-has"
+kind = "annotation"
+created = "2026-09-28T08:09:37Z"
+modified = "2026-09-28T08:09:37Z"
+
+[source]
+page = 18
+region = [
+    0.083591029047966,
+    0.04723493382334709,
+    0.8926251530647278,
+    0.39058351516723633,
+]
+```
+
+Fig 2.4
+HTR-10 Reactor horizontal cross section
+has small absorber ball channel, radial coordinate 98.6 mm
+Helium flow channel diameter 80mm, radial coordinate of channel center 1446 mm
+Control rod channel, diameter 130 mm, radial coordinate 1021 mm
+Irradiation channel size and radial position same as ctrl rod channel, diameter 130mm, radial coordinate of channel center 1021 mm
