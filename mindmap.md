@@ -490,3 +490,18 @@ source = "artifact:geelhood2021pnnl31427#annotation-p36-formula-3-43-k-t-k-100-1
 target = "artifact:geelhood2021pnnl31427#table-3-3"
 kind = "uses_data_from"
 ```
+
+# relation: artifact:butland1973specific#table-5 related_to collection:nuclear-engineering/fuel-and-materials/triso/graphite
+
+```toml
+[kovan]
+id = "162ec4410a4b"
+kind = "relation"
+created = "2026-09-28T07:01:49Z"
+modified = "2026-09-28T07:01:49Z"
+
+[relation]
+source = "artifact:butland1973specific#table-5"
+target = "collection:nuclear-engineering/fuel-and-materials/triso/graphite"
+kind = "related_to"
+```

@@ -1,0 +1,11 @@
+schema_version = 1
+id = "iaea2013tecdoc1694"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/iaea2013tecdoc1694.pdf"
+
+[classification]
+topics = ["unsorted"]
