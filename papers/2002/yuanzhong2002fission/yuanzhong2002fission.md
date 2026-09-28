@@ -353,7 +353,7 @@ table 4 - activities on inner surface of pri circ of HTR-10 after 20 year lifeti
 id = "table-3"
 kind = "digitised_table"
 created = "2026-09-28T02:54:31Z"
-modified = "2026-09-28T02:54:31Z"
+modified = "2026-09-28T02:56:28Z"
 
 [source]
 page = 4
@@ -383,7 +383,6 @@ Activity,2.1e6,8.2e7,1.6e7,3.5e8,3.5e7,1.9,5.9e2,1.6e3,2.6e1,5.7e9
 ```
 
 ### end of series
-
 # Annotation (p5) — Dominant source terms for HTR-10 release
 
 ```toml
@@ -572,6 +571,54 @@ digitised_at = "2026-09-28T02:50:38Z"
 ```csv
 Distance (km),0.5,1.5,2.5,4.0,7.5,15,25,35,45,55,65,75
 Dose (mSv/annum),1.1e-4,1.4e-4,1.3e-4,7.6e-5,4.3e-5,2.5e-5,1.7e-5,1.3e-5,1.1e-5,9.6e-6,8.5e-6,7.7e-6
+```
+
+### end of series
+
+# Table 9
+
+```toml
+[kovan]
+id = "table-9"
+kind = "digitised_table"
+created = "2026-09-28T03:15:53Z"
+modified = "2026-09-28T03:15:53Z"
+
+[source]
+page = 8
+region = [
+    0.061148565262556076,
+    0.6294542551040649,
+    0.8565843105316162,
+    0.9130669832229614,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 9"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T03:15:53Z"
+```
+
+### start of data series
+
+### Series: Table 9
+
+```csv
+Distance(km),depressurisation thyroid,depressurisation whole body,water ingress thyroid,water ingress whole body
+0.25,1.7E−1,7.7E−2,1.1,2.0E−1
+0.75,7.7E−2,3.3E−2,5.2E−1,8.8E−2
+1.5,5.2E−2,1.9E−2,3.7E−1,5.2E−2
+2.5,2.9E−2,1.1E−2,2.0E−1,3.1E−2
+4.0,1.4E−2,6.3E−3,8.7E−2,1.7E−2
+7.5,4.0E−3,2.4E−3,2.1E−2,6.1E−3
+15,9.8E−4,6.6E−4,4.6E−3,1.6E−3
+25,2.8E−4,2.0E−4,1.2E−3,5.0E−4
+35,9.8E−5,7.3E−5,3.9E−4,1.8E−4
+45,3.6E−5,2.8E−5,1.4E−4,6.9E−5
+55,1.4E−5,1.1E−5,5.2E−5,2.8E−5
+65,5.8E−6,4.7E−6,2.0E−5,1.1E−5
+75,2.4E−6,2.0E−6,8.0E−6,4.7E−6
 ```
 
 ### end of series
