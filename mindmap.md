@@ -269,14 +269,13 @@ kind = "uses_data_from"
 id = "866e8f04f5a0"
 kind = "relation"
 created = "2026-09-24T01:36:14Z"
-modified = "2026-09-24T01:36:14Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/dlofc-and-air-ingress"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/dlofc-and-air-ingress"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/water-ingress
 
 ```toml
@@ -284,14 +283,13 @@ kind = "supports"
 id = "e9a22b7ddf6c"
 kind = "relation"
 created = "2026-09-24T01:36:23Z"
-modified = "2026-09-24T01:36:23Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p3-table-1-fission-product-inventories-for-equilibrium-core"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/water-ingress"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p3-these-describe-fuel-elements-at-different-temperatures-and supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution
 
 ```toml
@@ -299,14 +297,13 @@ kind = "supports"
 id = "d67019df24c6"
 kind = "relation"
 created = "2026-09-24T01:40:33Z"
-modified = "2026-09-24T01:40:37Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p3-these-describe-fuel-elements-at-different-temperatures-and"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pebbles/heterogeneous-temp-distribution"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p3-note-the-mass-balance-inside-the-helium-circuit supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit
 
 ```toml
@@ -314,14 +311,13 @@ kind = "supports"
 id = "dad9359ac7fa"
 kind = "relation"
 created = "2026-09-24T01:43:56Z"
-modified = "2026-09-24T01:43:56Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p3-note-the-mass-balance-inside-the-helium-circuit"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p4-cation-system-are-almost-100-for-calculating-the related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system
 
 ```toml
@@ -329,14 +325,13 @@ kind = "supports"
 id = "270dddbafcf6"
 kind = "relation"
 created = "2026-09-24T01:47:29Z"
-modified = "2026-09-24T01:47:29Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p4-cation-system-are-almost-100-for-calculating-the"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
 kind = "related_to"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p4-leakage-from-pri-circuit-about-1-per-day related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system
 
 ```toml
@@ -344,14 +339,13 @@ kind = "related_to"
 id = "0cb2bbc182c4"
 kind = "relation"
 created = "2026-09-24T01:48:50Z"
-modified = "2026-09-24T01:48:50Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p4-leakage-from-pri-circuit-about-1-per-day"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
 kind = "related_to"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop
 
 ```toml
@@ -359,14 +353,13 @@ kind = "related_to"
 id = "f70733589bb5"
 kind = "relation"
 created = "2026-09-24T01:50:17Z"
-modified = "2026-09-24T01:50:17Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p4-calculation-assumptions-30-per-cycle-for-rb-sr"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/deposition-on-inner-surface-of-pri-helium-loop"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10
 
 ```toml
@@ -374,14 +367,13 @@ kind = "supports"
 id = "2909009f1f8f"
 kind = "relation"
 created = "2026-09-24T01:54:00Z"
-modified = "2026-09-24T01:54:00Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p4-estimate-of-radioactivity-in-pri-helium-in-loop"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
 kind = "related_to"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p4-table-4-activities-on-inner-surface-of supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10
 
 ```toml
@@ -389,14 +381,13 @@ kind = "related_to"
 id = "bd0ae3b3cbfa"
 kind = "relation"
 created = "2026-09-24T01:57:18Z"
-modified = "2026-09-24T01:57:18Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p4-table-4-activities-on-inner-surface-of"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/estimates/normal-operation/htr-10"
 kind = "supports"
 ```
-
 # relation: artifact:yuanzhong2002fission#annotation-p5-dominant-source-terms-for-htr-10-release supports collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/major-release-culprits
 
 ```toml
@@ -404,14 +395,13 @@ kind = "supports"
 id = "8a1ceaa7759d"
 kind = "relation"
 created = "2026-09-24T02:13:07Z"
-modified = "2026-09-24T02:13:07Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:yuanzhong2002fission#annotation-p5-dominant-source-terms-for-htr-10-release"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/major-release-culprits"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/major-release-culprits"
 kind = "supports"
 ```
-
 # relation: artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany related_to collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/triso-failure-fraction
 
 ```toml
@@ -419,14 +409,13 @@ kind = "supports"
 id = "cc6edec73a6c"
 kind = "relation"
 created = "2026-09-24T02:47:58Z"
-modified = "2026-09-24T02:47:58Z"
+modified = "2026-09-28T03:24:08Z"
 
 [relation]
 source = "artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany"
-target = "collection:nuclear-engineering/safety/accident-analysis/htgr/htr-10/modelling-techniques/pebbles/triso-failure-fraction"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pebbles/triso-failure-fraction"
 kind = "related_to"
 ```
-
 # relation: artifact:hnabielek2003rep1doc#annotation-p1-panama-for-triso-particles-germany related_to collection:nuclear-engineering/scientific-computing/codes/panama
 
 ```toml
