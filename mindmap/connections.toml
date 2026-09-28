@@ -15,3 +15,7 @@ target = "library:concept/nuclear-engineering/scientific-computing/codes/origen2
 [[connection]]
 source = "library:concept/nuclear-engineering/reactor-systems/htgr/pebble-bed/methods/discrete-element-method"
 target = "library:concept/nuclear-engineering/scientific-computing/codes/lammps"
+
+[[connection]]
+source = "library:concept/nuclear-engineering/fuel-and-materials/triso/codes/triso-atops"
+target = "library:concept/nuclear-engineering/scientific-computing/codes/triso-atops"
