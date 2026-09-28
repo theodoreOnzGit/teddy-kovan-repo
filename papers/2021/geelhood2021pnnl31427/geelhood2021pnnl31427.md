@@ -31,14 +31,41 @@ region = [
 
 UCO fuel properties here
 
+# Annotation (p36) — Formula 3.43 k_T = k_100 * (1 -
+
+```toml
+connections = ["604de270ee22"]
+
+[kovan]
+id = "annotation-p36-formula-3-43-k-t-k-100-1"
+kind = "annotation"
+created = "2026-09-28T06:20:16Z"
+modified = "2026-09-28T06:21:19Z"
+
+[source]
+page = 36
+region = [
+    0.35749197006225586,
+    0.6785328388214111,
+    0.588713526725769,
+    0.7021700143814087,
+]
+```
+
+Formula 3.43 
+k_T = k_100 * (1 - alpha (T - 100)exp(delta T))
+
+T is matrix temp in degc
 # Table 3.3
 
 ```toml
+connections = ["604de270ee22"]
+
 [kovan]
 id = "table-3-3"
 kind = "digitised_table"
 created = "2026-09-28T06:19:05Z"
-modified = "2026-09-28T06:19:05Z"
+modified = "2026-09-28T06:21:19Z"
 
 [source]
 page = 37

@@ -1,0 +1,11 @@
+schema_version = 1
+id = "butland1973specific"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/butland1973specific.pdf"
+
+[classification]
+topics = ["unsorted"]

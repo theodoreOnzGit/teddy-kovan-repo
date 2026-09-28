@@ -475,3 +475,18 @@ source = "artifact:geelhood2021pnnl31427#annotation-p15-uco-fuel-properties-here
 target = "collection:nuclear-engineering/fuel-and-materials/triso"
 kind = "related_to"
 ```
+
+# relation: artifact:geelhood2021pnnl31427#annotation-p36-formula-3-43-k-t-k-100-1 uses_data_from artifact:geelhood2021pnnl31427#table-3-3
+
+```toml
+[kovan]
+id = "604de270ee22"
+kind = "relation"
+created = "2026-09-28T06:21:19Z"
+modified = "2026-09-28T06:21:19Z"
+
+[relation]
+source = "artifact:geelhood2021pnnl31427#annotation-p36-formula-3-43-k-t-k-100-1"
+target = "artifact:geelhood2021pnnl31427#table-3-3"
+kind = "uses_data_from"
+```
