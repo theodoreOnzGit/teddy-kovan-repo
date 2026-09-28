@@ -505,3 +505,18 @@ source = "artifact:butland1973specific#table-5"
 target = "collection:nuclear-engineering/fuel-and-materials/triso/graphite"
 kind = "related_to"
 ```
+
+# relation: artifact:iaea2013tecdoc1694#fig-2-62-thermohydraulics-calculation-layout related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10
+
+```toml
+[kovan]
+id = "4a64778e94f7"
+kind = "relation"
+created = "2026-09-28T08:30:49Z"
+modified = "2026-09-28T08:30:49Z"
+
+[relation]
+source = "artifact:iaea2013tecdoc1694#fig-2-62-thermohydraulics-calculation-layout"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10"
+kind = "related_to"
+```

@@ -659,6 +659,48 @@ Z\R( cm),0,6.5,13,19,25,39,50,60,70.5,83.5,90
 
 ### end of series
 
+# Annotation (p27) — material properties part
+
+```toml
+[kovan]
+id = "annotation-p27-material-properties-part"
+kind = "annotation"
+created = "2026-09-28T08:32:32Z"
+modified = "2026-09-28T08:32:32Z"
+
+[source]
+page = 27
+region = [
+    0.08024533092975616,
+    0.40894603729248047,
+    0.9289947152137756,
+    0.536342442035675,
+]
+```
+
+material properties part
+
+# Annotation (p28) — Conductivity of fuel element is here but range
+
+```toml
+[kovan]
+id = "annotation-p28-conductivity-of-fuel-element-is-here-but-range"
+kind = "annotation"
+created = "2026-09-28T08:33:52Z"
+modified = "2026-09-28T08:34:19Z"
+
+[source]
+page = 28
+region = [
+    0.10683713853359222,
+    0.18322855234146118,
+    0.8839908242225647,
+    0.28931689262390137,
+]
+```
+
+Conductivity of fuel element is here
+but range only works from 450C to 1300C
 # Fig 2.62 thermohydraulics calculation layout
 
 ```toml
