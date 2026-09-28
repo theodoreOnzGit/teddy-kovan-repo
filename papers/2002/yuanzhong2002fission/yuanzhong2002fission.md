@@ -502,6 +502,42 @@ region = [
 ```
 
 Table 6 - consumption food amounts for radioactivity ingestion
+# Table 7
+
+```toml
+[kovan]
+id = "table-7"
+kind = "digitised_table"
+created = "2026-09-28T02:50:38Z"
+modified = "2026-09-28T02:50:38Z"
+
+[source]
+page = 7
+region = [
+    0.23254099488258362,
+    0.17585228383541107,
+    0.38331735134124756,
+    0.9018398523330688,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 7"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T02:50:38Z"
+```
+
+### start of data series
+
+### Series: Table 7
+
+```csv
+Distance (km),0.5,1.5,2.5,4.0,7.5,15,25,35,45,55,65,75
+Dose (mSv/annum),1.1e-4,1.4e-4,1.3e-4,7.6e-5,4.3e-5,2.5e-5,1.7e-5,1.3e-5,1.1e-5,9.6e-6,8.5e-6,7.7e-6
+```
+
+### end of series
+
 # Annotation (p9) — STOERNEU code... from Germany!
 
 ```toml
