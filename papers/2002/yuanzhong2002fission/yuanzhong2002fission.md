@@ -623,6 +623,59 @@ Distance(km),depressurisation thyroid,depressurisation whole body,water ingress 
 
 ### end of series
 
+# Table 8
+
+```toml
+[kovan]
+id = "table-8"
+kind = "digitised_table"
+created = "2026-09-28T03:34:03Z"
+modified = "2026-09-28T03:34:03Z"
+
+[source]
+page = 8
+region = [
+    0.05536814033985138,
+    0.16857945919036865,
+    0.45428067445755005,
+    0.5057119131088257,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 8"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T03:34:03Z"
+```
+
+### start of data series
+
+### Series: Table 8
+
+```csv
+Nuclide,Depressurization accident,Water ingress accident
+Kr-83m,6.3E8,1.7E8
+Kr-85m,1.9E9,3.7E8
+Kr-85,1.5E8,9.0E5
+Kr-88,4.4E9,1.1E9
+Xe-131m,1.9E8,2.9E6
+Xe-133m,4.1E8,2.6E7
+Xe-133,2.2E10,6.5E8
+Xe-135,3.7E9,6.6E8
+I-131,2.5E7,2.2E8
+I-132,3.4E8,1.3E8
+I-133,7.9E7,1.9E8
+I-135,1.5E8,1.4E8
+Sr-90,1.4E3,2.9E3
+Cs-134,8.9E5,2.3E6
+Cs-137,1.3E8,3.1E8
+Ag-110m,5.1E4,4.9E4
+H-3,1.1E10,1.7E9
+C-4,3.2E6,1.9E4
+```
+
+### end of series
+
 # Annotation (p9) — STOERNEU code... from Germany!
 
 ```toml
