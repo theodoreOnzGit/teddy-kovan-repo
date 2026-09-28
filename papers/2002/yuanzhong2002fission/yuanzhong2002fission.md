@@ -93,7 +93,7 @@ ORIGEN2 used for HTR-10 FP inventory calcs
 id = "annotation-p3-table-1-fission-product-inventories-for-equilibrium-core"
 kind = "annotation"
 created = "2026-09-23T03:23:53Z"
-modified = "2026-09-23T03:54:13Z"
+modified = "2026-09-28T02:16:19Z"
 
 [source]
 page = 3
@@ -133,7 +133,6 @@ Cs-137,6.92E+14
 Ag-110m,2.16E+12
 
 ```
-
 # Annotation (p3) — FRESCO II was used to calculate FP release
 
 ```toml
@@ -347,27 +346,6 @@ region = [
 
 table 4 - activities on inner surface of pri circ of HTR-10 after 20 year lifetime
 
-# Annotation (p5) — Table 5, amt of airborne activity in env
-
-```toml
-[kovan]
-id = "annotation-p5-table-5-amt-of-airborne-activity-in-env"
-kind = "annotation"
-created = "2026-09-24T02:04:40Z"
-modified = "2026-09-24T02:04:40Z"
-
-[source]
-page = 5
-region = [
-    0.054269347339868546,
-    0.17798179388046265,
-    0.8494317531585693,
-    0.31570911407470703,
-]
-```
-
-Table 5, amt of airborne activity in env during HTR-10 normal operation conditions
-
 # Annotation (p5) — Dominant source terms for HTR-10 release
 
 ```toml
@@ -375,7 +353,7 @@ Table 5, amt of airborne activity in env during HTR-10 normal operation conditio
 id = "annotation-p5-dominant-source-terms-for-htr-10-release"
 kind = "annotation"
 created = "2026-09-24T02:06:10Z"
-modified = "2026-09-24T02:10:04Z"
+modified = "2026-09-28T02:01:54Z"
 
 [source]
 page = 5
@@ -400,7 +378,6 @@ fuel loading and unloading,
 containing tritium,
 6. and the release due to the inspection and
 maintenance for the radio-contaminated equipment.
-
 # Annotation (p5) — Impt Parameters for atmospheric modelling
 
 ```toml
@@ -408,7 +385,7 @@ maintenance for the radio-contaminated equipment.
 id = "annotation-p5-impt-parameters-for-atmospheric-modelling"
 kind = "annotation"
 created = "2026-09-24T02:14:25Z"
-modified = "2026-09-24T02:14:59Z"
+modified = "2026-09-28T02:22:04Z"
 
 [source]
 page = 5
@@ -467,6 +444,43 @@ region = [
 
 accounted for gamma radiation, inhalation, ingestion and gamma submersion
 
+# Digitised table
+
+```toml
+[kovan]
+id = "digitised-table"
+kind = "digitised_table"
+created = "2026-09-28T02:28:26Z"
+modified = "2026-09-28T02:28:26Z"
+
+[source]
+page = 5
+region = [
+    0.06338880211114883,
+    0.17342130839824677,
+    0.8534230589866638,
+    0.30872178077697754,
+]
+
+[extraction]
+method = "pdf_native"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-28T02:28:26Z"
+```
+
+### start of data series
+
+### Series: Digitised table
+
+```csv
+Nuclide,Kr-83m,Kr-85m,Kr-85,Kr-87,Kr-88,Xe-131m,Xe-133m,Xe-133,Xe-135m,Xe-135,I-131
+Release Amt,3.8E8,1.4E9,1.4E9,1.6E9,3.2E9,4.6E7,2.9E8,8.5E9,3.9E8,3.8E9,8.4E6
+Nuclide,I-132,I-133,I-134,I-135,Sr-89,Cs-134,Cs-137,Ag-110m,H-3,C-14,Ar-41
+Release Amt,6.5E7,4.0E7,1.7E8,5.0E7,8.1,2.5E3,6.9E3,1.1E2,7.9E10,3.1E7,1.0E11
+```
+
+### end of series
+
 # Annotation (p6) — Table 6 - consumption food amounts for radioactivity
 
 ```toml
@@ -474,7 +488,7 @@ accounted for gamma radiation, inhalation, ingestion and gamma submersion
 id = "annotation-p6-table-6-consumption-food-amounts-for-radioactivity"
 kind = "annotation"
 created = "2026-09-24T02:15:50Z"
-modified = "2026-09-24T02:15:50Z"
+modified = "2026-09-28T02:21:58Z"
 
 [source]
 page = 6
@@ -487,29 +501,6 @@ region = [
 ```
 
 Table 6 - consumption food amounts for radioactivity ingestion
-
-# Annotation (p7) — Table 7 annotation shows maximum dose in mSv/annum,
-
-```toml
-[kovan]
-id = "annotation-p7-table-7-annotation-shows-maximum-dose-in-msv-annum"
-kind = "annotation"
-created = "2026-09-24T02:19:39Z"
-modified = "2026-09-24T02:19:39Z"
-
-[source]
-page = 7
-region = [
-    0.21997001767158508,
-    0.7077535390853882,
-    0.39196300506591797,
-    0.8977336883544922,
-]
-```
-
-Table 7 annotation shows maximum dose in mSv/annum, maximum azimuthal value at various distances
-of interest is 0.5 and 1.5 km where dose was about 1.1e-04 mSv/annum and 1.4e-04 mSv/annum respectively
-
 # Annotation (p9) — STOERNEU code... from Germany!
 
 ```toml
