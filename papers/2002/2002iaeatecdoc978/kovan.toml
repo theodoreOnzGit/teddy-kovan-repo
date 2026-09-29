@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2002iaeatecdoc978"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/2002iaeatecdoc978.pdf"
+
+[classification]
+topics = ["unsorted"]

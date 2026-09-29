@@ -535,3 +535,18 @@ source = "artifact:tang2002design#annotation-p1-free-uranium-fraction-in-fuel-is
 target = "collection:nuclear-engineering/fuel-and-materials/triso/tramp-uranium"
 kind = "related_to"
 ```
+
+# relation: artifact:2002iaeatecdoc978#annotation-p267-fp-transport-in-primary-coolant-circuit-during-normal related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/major-release-culprits/leak-of-pri-helium
+
+```toml
+[kovan]
+id = "403db65978ec"
+kind = "relation"
+created = "2026-09-29T02:52:26Z"
+modified = "2026-09-29T02:52:26Z"
+
+[relation]
+source = "artifact:2002iaeatecdoc978#annotation-p267-fp-transport-in-primary-coolant-circuit-during-normal"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/major-release-culprits/leak-of-pri-helium"
+kind = "related_to"
+```
