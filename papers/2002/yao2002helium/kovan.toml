@@ -1,0 +1,11 @@
+schema_version = 1
+id = "yao2002helium"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/yao2002helium.pdf"
+
+[classification]
+topics = ["unsorted"]

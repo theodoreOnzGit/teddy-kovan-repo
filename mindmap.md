@@ -550,3 +550,33 @@ source = "artifact:2002iaeatecdoc978#annotation-p267-fp-transport-in-primary-coo
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/major-release-culprits/leak-of-pri-helium"
 kind = "related_to"
 ```
+
+# relation: artifact:yao2002helium#annotation-p1-helium-purification-system-for-htr-10-at-10-5-kg-h related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/systems/helium-purification
+
+```toml
+[kovan]
+id = "296c9c515498"
+kind = "relation"
+created = "2026-09-29T02:57:32Z"
+modified = "2026-09-29T02:57:32Z"
+
+[relation]
+source = "artifact:yao2002helium#annotation-p1-helium-purification-system-for-htr-10-at-10-5-kg-h"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/systems/helium-purification"
+kind = "related_to"
+```
+
+# relation: artifact:yao2002helium#annotation-p1-helium-purification-system-for-htr-10-at-10-5-kg-h related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/purification-system
+
+```toml
+[kovan]
+id = "3529c1961f19"
+kind = "relation"
+created = "2026-09-29T02:57:39Z"
+modified = "2026-09-29T02:57:39Z"
+
+[relation]
+source = "artifact:yao2002helium#annotation-p1-helium-purification-system-for-htr-10-at-10-5-kg-h"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
+kind = "related_to"
+```
