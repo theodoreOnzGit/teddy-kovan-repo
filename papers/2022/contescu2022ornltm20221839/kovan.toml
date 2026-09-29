@@ -1,0 +1,11 @@
+schema_version = 1
+id = "contescu2022ornltm20221839"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/contescu2022ornltm20221839.pdf"
+
+[classification]
+topics = ["unsorted"]
