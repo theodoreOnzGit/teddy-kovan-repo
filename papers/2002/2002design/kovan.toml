@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2002design"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/2002design.pdf"
+
+[classification]
+topics = ["unsorted"]

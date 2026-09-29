@@ -580,3 +580,18 @@ source = "artifact:yao2002helium#annotation-p1-helium-purification-system-for-ht
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/modelling-techniques/pri-circuit/sinks/purification-system"
 kind = "related_to"
 ```
+
+# relation: artifact:2002design#annotation-p4-exhaust-system-holds-helium-purification-at-negative-pressure related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/systems/helium-purification/exhaust-system
+
+```toml
+[kovan]
+id = "0aa2e1aa1f21"
+kind = "relation"
+created = "2026-09-29T03:00:44Z"
+modified = "2026-09-29T03:00:44Z"
+
+[relation]
+source = "artifact:2002design#annotation-p4-exhaust-system-holds-helium-purification-at-negative-pressure"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/systems/helium-purification/exhaust-system"
+kind = "related_to"
+```
