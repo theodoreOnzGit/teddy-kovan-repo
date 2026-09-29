@@ -1,0 +1,11 @@
+schema_version = 1
+id = "albrtk2012microsoft"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/albrtk2012microsoft.pdf"
+
+[classification]
+topics = ["unsorted"]
