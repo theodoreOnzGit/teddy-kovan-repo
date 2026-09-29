@@ -520,3 +520,18 @@ source = "artifact:iaea2013tecdoc1694#fig-2-62-thermohydraulics-calculation-layo
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10"
 kind = "related_to"
 ```
+
+# relation: artifact:tang2002design#annotation-p1-free-uranium-fraction-in-fuel-is-5-0e-5 related_to collection:nuclear-engineering/fuel-and-materials/triso/tramp-uranium
+
+```toml
+[kovan]
+id = "15d9c77f1ff6"
+kind = "relation"
+created = "2026-09-29T02:49:08Z"
+modified = "2026-09-29T02:49:08Z"
+
+[relation]
+source = "artifact:tang2002design#annotation-p1-free-uranium-fraction-in-fuel-is-5-0e-5"
+target = "collection:nuclear-engineering/fuel-and-materials/triso/tramp-uranium"
+kind = "related_to"
+```

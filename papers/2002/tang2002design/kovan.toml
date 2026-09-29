@@ -1,0 +1,11 @@
+schema_version = 1
+id = "tang2002design"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/tang2002design.pdf"
+
+[classification]
+topics = ["unsorted"]
