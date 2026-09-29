@@ -1,0 +1,11 @@
+schema_version = 1
+id = "zuying2002thermal"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/zuying2002thermal.pdf"
+
+[classification]
+topics = ["unsorted"]
