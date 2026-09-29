@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2003heat"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/2003heat.pdf"
+
+[classification]
+topics = ["unsorted"]
