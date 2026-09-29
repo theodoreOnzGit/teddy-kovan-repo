@@ -595,3 +595,18 @@ source = "artifact:2002design#annotation-p4-exhaust-system-holds-helium-purifica
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/systems/helium-purification/exhaust-system"
 kind = "related_to"
 ```
+
+# relation: artifact:2004nuregcr6844#annotation-p95-this-is-where-nureg-6844-starts-talking-about related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress
+
+```toml
+[kovan]
+id = "ae598500b4d0"
+kind = "relation"
+created = "2026-09-29T03:04:18Z"
+modified = "2026-09-29T03:04:18Z"
+
+[relation]
+source = "artifact:2004nuregcr6844#annotation-p95-this-is-where-nureg-6844-starts-talking-about"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress"
+kind = "related_to"
+```

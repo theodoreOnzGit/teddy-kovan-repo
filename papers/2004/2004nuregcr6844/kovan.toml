@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2004nuregcr6844"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/2004nuregcr6844.pdf"
+
+[classification]
+topics = ["unsorted"]
