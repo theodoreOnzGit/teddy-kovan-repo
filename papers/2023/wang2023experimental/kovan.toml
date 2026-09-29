@@ -1,0 +1,11 @@
+schema_version = 1
+id = "wang2023experimental"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/wang2023experimental.pdf"
+
+[classification]
+topics = ["unsorted"]

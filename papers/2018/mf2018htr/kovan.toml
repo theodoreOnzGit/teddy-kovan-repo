@@ -1,0 +1,11 @@
+schema_version = 1
+id = "mf2018htr"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/mf2018htr.pdf"
+
+[classification]
+topics = ["unsorted"]

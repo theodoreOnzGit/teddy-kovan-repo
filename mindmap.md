@@ -610,3 +610,18 @@ source = "artifact:2004nuregcr6844#annotation-p95-this-is-where-nureg-6844-start
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress"
 kind = "related_to"
 ```
+
+# relation: artifact:wang2023experimental#annotation-p3-langmuir-hinshelwood-model-for-oxidation related_to collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress/graphite-oxidation-via-steam
+
+```toml
+[kovan]
+id = "83320b1b1356"
+kind = "relation"
+created = "2026-09-29T04:43:17Z"
+modified = "2026-09-29T04:43:17Z"
+
+[relation]
+source = "artifact:wang2023experimental#annotation-p3-langmuir-hinshelwood-model-for-oxidation"
+target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress/graphite-oxidation-via-steam"
+kind = "related_to"
+```
