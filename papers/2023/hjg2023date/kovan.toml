@@ -1,0 +1,11 @@
+schema_version = 1
+id = "hjg2023date"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/hjg2023date.pdf"
+
+[classification]
+topics = ["unsorted"]
