@@ -119,6 +119,48 @@ Heating Time (h),Relative Weight (%)
 
 ### end of series
 
+# Table 5-7
+
+```toml
+[kovan]
+id = "table-5-7"
+kind = "digitised_table"
+created = "2026-09-30T02:19:32Z"
+modified = "2026-09-30T02:19:32Z"
+
+[source]
+page = 254
+region = [
+    0.07508151233196259,
+    0.06085844710469246,
+    0.9374446868896484,
+    0.5095173716545105,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 5-7"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-09-30T02:19:32Z"
+```
+
+### start of data series
+
+### Series: Table 5-7
+
+```csv
+Fuel Sample,No of Particles,Burnup [%FIMA],heatup (hrs),Max temp (C),Time (h),Kr-85 release First particle failed after,Kr-85 release No. of failed particles,KR-85 release Fraction of failed particles
+"92/29, 12",10,9.2,14,1400,400,397 h,1,0.1
+"73/8, 11",10,4.7,15,1500,25,8h,10,1
+"92/29, 13",10,9.2,15,1500,25,3h,10,1
+"92/29,11",10,9.2,28,1620,1,at 1613C,10,1
+AVR 89/12,"16,400",9.4,13,1300,410,258 h,4,2.4e-4
+AVR 92/22,"16,400",8.8,14,1400,140,1 h,20,1.2e-3
+AVR 89/14,"16,400",9.0,14,1400,70,2h,12,7.3e-4
+```
+
+### end of series
+
 # Fig 5-21 failure fraction of fuel particles within fuel spheres during heating in air at 1300C and of 10 intact unbonded particles at 1500C
 
 ```toml
