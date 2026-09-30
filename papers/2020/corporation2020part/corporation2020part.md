@@ -10,6 +10,27 @@ modified = "2026-09-30T02:51:29Z"
 
 ## Summary
 
+# Annotation (p1) — This report was in Jan 2020, before NuScale
+
+```toml
+[kovan]
+id = "annotation-p1-this-report-was-in-jan-2020-before-nuscale"
+kind = "annotation"
+created = "2026-09-30T02:58:18Z"
+modified = "2026-09-30T02:58:18Z"
+
+[source]
+page = 1
+region = [
+    0.08402623236179352,
+    0.8449370861053467,
+    0.40370887517929077,
+    0.9153209924697876,
+]
+```
+
+This report was in Jan 2020, before NuScale announced their 250-255 MWth design in Nov 2020.
+
 # Table B-5: Best Estimate COre Inventory, Nuscale best estimate core inventory (Bq)
 
 ```toml
