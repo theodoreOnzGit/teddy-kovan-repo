@@ -192,7 +192,7 @@ Ce,0.01,0.02,0
 id = "table-3-12"
 kind = "digitised_table"
 created = "2026-09-30T02:32:43Z"
-modified = "2026-09-30T02:33:04Z"
+modified = "2026-09-30T03:03:56Z"
 
 [source]
 page = 22
@@ -205,30 +205,29 @@ region = [
 
 [extraction]
 method = "pdf_native"
-figure = "Table 3.12 BWR Releases into containment"
+figure = "Table 3.12"
 digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
-digitised_at = "2026-09-30T02:33:04Z"
+digitised_at = "2026-09-30T03:03:56Z"
 ```
 
 ### start of data series
 
-### Series: Table 3.12 BWR Releases into containment
+### Series: Table 3.12
 
 ```csv
  ,Gap Release***,Early In-Vessel,Ex-Vessel,Late In-Vessel
-Duration (Hours),0.05,.5,3.0,10.0
+Duration (Hours),0.5,.5,3.0,10.0
 Noble Gases**,0.05,.95,0,0
 Halogens,0.05,.25,0.30,0.01
-Alkali Metals,0,.20,0.35,0.01
+Alkali Metals,0.05,.20,0.35,0.01
 Tellurium group,0,.05,0.25,0.005
 "Barium, Strontium",0,.02,0.1,0
 Noble Metals,0,.0025,0.0025,0
 Cerium group,0,.0005,0.005,0
-Lanthanides,,.0002,0.005,0
+Lanthanides,0,.0002,0.005,0
 ```
 
 ### end of series
-
 # Table 3.13 PWR Releases Into Containment
 
 ```toml
