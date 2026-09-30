@@ -187,7 +187,7 @@ Table 3 - all input variables needed for starting TRISO ATOPS
 id = "fig-5-transient-temperature-profiles-for-the-mhtgr-test-cases-5-curve-from-ref-15"
 kind = "digitised_graph"
 created = "2026-09-29T12:05:03Z"
-modified = "2026-09-29T12:05:03Z"
+modified = "2026-09-30T01:48:01Z"
 
 [source]
 page = 16
@@ -206,7 +206,7 @@ y_label = "Temperature Degrees C"
 x_axis = "linear scale, px 100.30328369140625 = 0 , px 509.75634765625 = 140"
 y_axis = "linear scale, px 341.6803894042969 = 200 , px 30.210227966308594 = 1600"
 digitised_by = "teddy0 via kovan (gui, hand-placed)"
-digitised_at = "2026-09-29T12:04:42Z"
+digitised_at = "2026-09-30T01:48:01Z"
 ```
 
 ### start of data series
@@ -215,6 +215,7 @@ digitised_at = "2026-09-29T12:04:42Z"
 
 ```csv
 Time (h),Temperature Degrees C
+-0.3574878895797393,199.2561227837333
 1.3457647864352076,325.5805449591827
 2.3709186947927696,455.8113278775891
 2.7126366642452906,433.3577446157949
@@ -337,7 +338,6 @@ Time (h),Temperature Degrees C
 ```
 
 ### end of series
-
 # Annotation (p29) — 15. S. J. Ball, “Overview of Modular HTGR
 
 ```toml
