@@ -1,0 +1,11 @@
+schema_version = 1
+id = "soffer2009nureg1465"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/soffer2009nureg1465.pdf"
+
+[classification]
+topics = ["unsorted"]
