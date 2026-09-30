@@ -1,0 +1,11 @@
+schema_version = 1
+id = "corporation2020part"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = "../../../literature/proprietary/corporation2020part.pdf"
+
+[classification]
+topics = ["unsorted"]
