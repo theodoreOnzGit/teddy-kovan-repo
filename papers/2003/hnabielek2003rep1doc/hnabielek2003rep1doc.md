@@ -106,7 +106,7 @@ phi_0 ballpark figure is 6.0e-5
 id = "annotation-p8-this-is-the-pressure-vessel-model-phi-1-t-t"
 kind = "annotation"
 created = "2026-09-24T04:37:47Z"
-modified = "2026-09-24T06:45:03Z"
+modified = "2026-09-30T06:58:05Z"
 
 [source]
 page = 8
@@ -119,6 +119,7 @@ region = [
 ```
 
 this is the pressure vessel model 
+Sometimes called weibull failure fraction
 
 phi_1 (t,T) = 1 - exp( -ln 2 * (sigma_t/sigma_o)^m)
 

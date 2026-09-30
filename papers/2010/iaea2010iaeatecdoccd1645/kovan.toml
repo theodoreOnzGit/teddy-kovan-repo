@@ -1,0 +1,12 @@
+schema_version = 1
+id = "iaea2010iaeatecdoccd1645"
+kind = "paper"
+
+[source]
+access = "restricted"
+storage = "local"
+pdf = '..\..\..\literature\proprietary\iaea2010iaeatecdoccd1645.pdf'
+repo = "proprietary"
+
+[classification]
+topics = ["unsorted"]
