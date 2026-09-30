@@ -1,0 +1,11 @@
+schema_version = 1
+id = "dietrich2017expansion"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/cc-by-sa/dietrich-kit-sr-7726-melcor-coupling.pdf"
+
+[classification]
+topics = ["unsorted"]

@@ -1,0 +1,17 @@
+schema_version = 1
+id = "wash-1400"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/standard-corpus/kovan-standard-open-corpus/nrc/ML15334A199.pdf"
+corpus = "wash-1400"
+
+[classification]
+topics = [
+    "nuclear-engineering/pra",
+    "nuclear-engineering/safety/severe-accidents",
+    "nuclear-engineering/safety/source-term",
+    "nuclear-engineering/reactor-systems/lwr",
+]

@@ -1,0 +1,17 @@
+schema_version = 1
+id = "nureg-cr-7289"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/standard-corpus/kovan-standard-open-corpus/nrc/ML22063A060.pdf"
+corpus = "nureg-cr-7289"
+
+[classification]
+topics = [
+    "nuclear-engineering/nuclear-data",
+    "nuclear-engineering/reactor-systems/htgr",
+    "nuclear-engineering/reactor-systems/msr",
+    "nuclear-engineering/reactor-systems/sfr",
+]

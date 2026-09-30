@@ -1,0 +1,4 @@
+schema_version = 1
+id = "severe-accidents"
+kind = "topic"
+name = "severe-accidents"

@@ -1,0 +1,16 @@
+schema_version = 1
+id = "nureg-km-0006"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/standard-corpus/kovan-standard-open-corpus/nrc/ML13325A086.pdf"
+corpus = "nureg-km-0006"
+
+[classification]
+topics = [
+    "nuclear-engineering/scientific-computing",
+    "nuclear-engineering/scientific-computing/verification",
+    "nuclear-engineering/scientific-computing/validation",
+]
