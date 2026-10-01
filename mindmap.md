@@ -625,3 +625,18 @@ source = "artifact:wang2023experimental#annotation-p3-langmuir-hinshelwood-model
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress/graphite-oxidation-via-steam"
 kind = "related_to"
 ```
+
+# relation: artifact:2016radiation#figure-2-tede-as-function-of-downwind-distance-from-the-npp-site-in-different-stability-classes-a-f related_to collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/ap-1000
+
+```toml
+[kovan]
+id = "55eee4f8aa99"
+kind = "relation"
+created = "2026-10-01T01:14:30Z"
+modified = "2026-10-01T01:14:30Z"
+
+[relation]
+source = "artifact:2016radiation#figure-2-tede-as-function-of-downwind-distance-from-the-npp-site-in-different-stability-classes-a-f"
+target = "collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/ap-1000"
+kind = "related_to"
+```

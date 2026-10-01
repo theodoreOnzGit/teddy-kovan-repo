@@ -1,0 +1,4 @@
+schema_version = 1
+id = "ap-1000"
+kind = "topic"
+name = "AP-1000"
