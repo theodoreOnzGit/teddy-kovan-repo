@@ -640,3 +640,18 @@ source = "artifact:2016radiation#figure-2-tede-as-function-of-downwind-distance-
 target = "collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/ap-1000"
 kind = "related_to"
 ```
+
+# relation: artifact:dadda2024source#annotation-p4-gaussian-plume-equation related_to collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/models/gaussian-plume
+
+```toml
+[kovan]
+id = "37710a55fcb8"
+kind = "relation"
+created = "2026-10-01T01:31:33Z"
+modified = "2026-10-01T01:31:33Z"
+
+[relation]
+source = "artifact:dadda2024source#annotation-p4-gaussian-plume-equation"
+target = "collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/models/gaussian-plume"
+kind = "related_to"
+```
