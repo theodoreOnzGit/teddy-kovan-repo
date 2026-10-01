@@ -1,0 +1,11 @@
+schema_version = 1
+id = "2021analysis"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/cc-by/fang2021-htgr-fission-product-release-fresco.pdf"
+
+[classification]
+topics = ["unsorted"]
