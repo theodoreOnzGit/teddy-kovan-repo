@@ -71,3 +71,43 @@ F,0 . 04 x ( 1 + 0 . 0001 x) ^−0 . 5,0 . 016 x ( 1 + 0 . 0003 x) ^−1
 ```
 
 ### end of series
+
+# Table 1 Definition of Pasquill Stability Classes in NSGPE Model
+
+```toml
+[kovan]
+id = "table-1-definition-of-pasquill-stability-classes-in-nsgpe-model"
+kind = "digitised_table"
+created = "2026-10-02T06:09:08Z"
+modified = "2026-10-02T06:09:08Z"
+
+[source]
+page = 6
+region = [
+    0.14750437438488007,
+    0.6414641737937927,
+    0.879656970500946,
+    0.7917737364768982,
+]
+
+[extraction]
+method = "pdf_native"
+figure = "Table 1 Definition of Pasquill Stability Classes in NSGPE Model"
+digitised_by = "teddy0 via kovan (gui, table grid, every value entered by hand)"
+digitised_at = "2026-10-02T06:09:08Z"
+```
+
+### start of data series
+
+### Series: Table 1 Definition of Pasquill Stability Classes in NSGPE Model
+
+```csv
+Surface windspeed (m/s),Strong daytime insolation,moderate daytime insolation,slight daytime insolation,Nighttime Cloud cover >= 4/8,Nighttime cloud cover <= 3/8
+< 2,A,A-B,B,–,–
+2–3,A-B,B,C,E,F
+3–5,B,B-C,C,D,E
+5–6,C,C-D,D,D,D
+> 6,C,D,D,D,D
+```
+
+### end of series
