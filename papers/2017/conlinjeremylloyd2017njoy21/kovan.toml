@@ -1,0 +1,11 @@
+schema_version = 1
+id = "conlinjeremylloyd2017njoy21"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/cc-by/conlin2017-njoy21-next-generation-nuclear-data-processing.pdf"
+
+[classification]
+topics = ["unsorted"]
