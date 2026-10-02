@@ -1,0 +1,12 @@
+schema_version = 1
+id = "manheim2023application"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/proprietary/manheim2023application.pdf"
+repo = "proprietary"
+
+[classification]
+topics = ["unsorted"]

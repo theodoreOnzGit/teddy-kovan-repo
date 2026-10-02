@@ -82,7 +82,7 @@ This is where R/B is defined, as release to birth ratio
 id = "annotation-p6-noble-gas-release-to-birth-ratio"
 kind = "annotation"
 created = "2026-09-22T15:24:58Z"
-modified = "2026-09-22T15:24:58Z"
+modified = "2026-10-02T03:09:42Z"
 
 [source]
 page = 6
@@ -95,7 +95,6 @@ region = [
 ```
 
 Noble Gas Release to Birth Ratio
-
 # Annotation (p6) — Silver release to birth ratio
 
 ```toml
