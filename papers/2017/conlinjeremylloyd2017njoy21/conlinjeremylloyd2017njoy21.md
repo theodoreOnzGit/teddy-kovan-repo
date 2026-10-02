@@ -13,11 +13,13 @@ modified = "2026-10-02T06:23:05Z"
 # Annotation (p2) — NJOY is to be modernised!
 
 ```toml
+connections = ["27c7bb11a1e7"]
+
 [kovan]
 id = "annotation-p2-njoy-is-to-be-modernised"
 kind = "annotation"
 created = "2026-10-02T06:25:52Z"
-modified = "2026-10-02T06:26:06Z"
+modified = "2026-10-02T06:38:02Z"
 
 [source]
 page = 2
@@ -31,15 +33,16 @@ region = [
 
 NJOY is to be modernised!
 Old fortran code is outdated. It is a thing
-
 # Annotation (p2) — Goals of NJOY21, make njoy more flexible, easier
 
 ```toml
+connections = ["29e28f5172e0"]
+
 [kovan]
 id = "annotation-p2-goals-of-njoy21-make-njoy-more-flexible-easier"
 kind = "annotation"
 created = "2026-10-02T06:26:39Z"
-modified = "2026-10-02T06:26:39Z"
+modified = "2026-10-02T06:38:13Z"
 
 [source]
 page = 2
