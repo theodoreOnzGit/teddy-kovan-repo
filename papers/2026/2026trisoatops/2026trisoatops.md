@@ -5,7 +5,7 @@
 id = "2026trisoatops"
 kind = "paper"
 created = "2026-09-22T08:33:54Z"
-modified = "2026-09-22T14:48:41Z"
+modified = "2026-10-23T02:05:33Z"
 ```
 
 ## Summary
@@ -53,6 +53,133 @@ region = [
 Two defects yeah, exposed kernel and SiC defects, result in release of FP. 
 
 Wonder what's the diff
+
+# Annotation (p4) — So this is where plateout is. Where condensable
+
+```toml
+[kovan]
+id = "annotation-p4-so-this-is-where-plateout-is-where-condensable"
+kind = "annotation"
+created = "2026-10-23T02:59:10Z"
+modified = "2026-10-23T02:59:10Z"
+
+[source]
+page = 4
+region = [
+    0.511782169342041,
+    0.738704264163971,
+    0.9628376960754395,
+    0.8835851550102234,
+]
+```
+
+So this is where plateout is. Where condensable fission products plate out (condense) on the cool metallic surface of the piping system
+
+# Annotation (p4) — Graphite selectively traps metallic FPs, but noble gases,
+
+```toml
+[kovan]
+id = "annotation-p4-graphite-selectively-traps-metallic-fps-but-noble-gases"
+kind = "annotation"
+created = "2026-10-23T02:59:50Z"
+modified = "2026-10-23T02:59:50Z"
+
+[source]
+page = 4
+region = [
+    0.524264395236969,
+    0.6643731594085693,
+    0.94952791929245,
+    0.7385689616203308,
+]
+```
+
+Graphite selectively traps metallic FPs, but noble gases, halogens and tellurium are not retained.. are they going to gas?
+
+# Annotation (p5) — Notes: FPs releeased (out of fuel) cna be
+
+```toml
+[kovan]
+id = "annotation-p5-notes-fps-releeased-out-of-fuel-cna-be"
+kind = "annotation"
+created = "2026-10-23T03:00:59Z"
+modified = "2026-10-23T03:00:59Z"
+
+[source]
+page = 5
+region = [
+    0.04643074423074722,
+    0.08193539083003998,
+    0.4887470006942749,
+    0.16340024769306183,
+]
+```
+
+Notes: FPs releeased (out of fuel) cna be found in coolant, piping, graphite, cleanup system.
+
+Accident releases more cos of particule failures and the fact that heat releases more FPs
+
+# Annotation (p5) — Case in point, heat releases FPs from graphite,
+
+```toml
+[kovan]
+id = "annotation-p5-case-in-point-heat-releases-fps-from-graphite"
+kind = "annotation"
+created = "2026-10-23T03:01:29Z"
+modified = "2026-10-23T03:01:55Z"
+
+[source]
+page = 5
+region = [
+    0.06053012236952782,
+    0.1644778847694397,
+    0.4838123917579651,
+    0.24305835366249084,
+]
+```
+
+Case in point, heat releases FPs from graphite,
+# Annotation (p5) — What TH model tho...
+
+```toml
+[kovan]
+id = "annotation-p5-what-th-model-tho"
+kind = "annotation"
+created = "2026-10-23T03:02:19Z"
+modified = "2026-10-23T03:02:19Z"
+
+[source]
+page = 5
+region = [
+    0.06628511101007462,
+    0.30586180090904236,
+    0.46046698093414307,
+    0.3938429057598114,
+]
+```
+
+What TH model tho...
+
+# Annotation (p5) — Oh yes, i saw this breathing effect in
+
+```toml
+[kovan]
+id = "annotation-p5-oh-yes-i-saw-this-breathing-effect-in"
+kind = "annotation"
+created = "2026-10-23T03:02:56Z"
+modified = "2026-10-23T03:02:56Z"
+
+[source]
+page = 5
+region = [
+    0.0660480260848999,
+    0.3856341540813446,
+    0.4869004189968109,
+    0.5160723328590393,
+]
+```
+
+Oh yes, i saw this breathing effect in code due to contraction and expansion, but no convection accounted for.
 
 # Annotation (p6) — This is where R/B is defined, as release
 
