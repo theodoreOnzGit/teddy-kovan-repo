@@ -181,6 +181,48 @@ region = [
 
 Oh yes, i saw this breathing effect in code due to contraction and expansion, but no convection accounted for.
 
+# Annotation (p5) — Release rate is release fraction (release to birth
+
+```toml
+[kovan]
+id = "annotation-p5-release-rate-is-release-fraction-release-to-birth"
+kind = "annotation"
+created = "2026-10-23T03:04:26Z"
+modified = "2026-10-23T03:04:26Z"
+
+[source]
+page = 5
+region = [
+    0.4862601161003113,
+    0.11858095228672028,
+    0.9152336120605469,
+    0.33378562331199646,
+]
+```
+
+Release rate is release fraction (release to birth ratio) * generation rate, makes sense!
+
+# Annotation (p5) — Eq 4a and 4b can help with simplifying
+
+```toml
+[kovan]
+id = "annotation-p5-eq-4a-and-4b-can-help-with-simplifying"
+kind = "annotation"
+created = "2026-10-23T03:23:51Z"
+modified = "2026-10-23T03:23:51Z"
+
+[source]
+page = 5
+region = [
+    0.4747971296310425,
+    0.781408429145813,
+    0.9421561360359192,
+    0.9318157434463501,
+]
+```
+
+Eq 4a and 4b can help with simplifying decay chain
+
 # Annotation (p6) — This is where R/B is defined, as release
 
 ```toml
@@ -188,7 +230,7 @@ Oh yes, i saw this breathing effect in code due to contraction and expansion, bu
 id = "annotation-p6-this-is-where-r-b-is-defined-as-release"
 kind = "annotation"
 created = "2026-09-22T15:18:41Z"
-modified = "2026-09-22T15:18:41Z"
+modified = "2026-10-27T01:27:09Z"
 
 [source]
 page = 6
@@ -201,7 +243,7 @@ region = [
 ```
 
 This is where R/B is defined, as release to birth ratio
-
+(R/B) fail is in eq 6a-6d
 # Annotation (p6) — Noble Gas Release to Birth Ratio
 
 ```toml
@@ -209,7 +251,7 @@ This is where R/B is defined, as release to birth ratio
 id = "annotation-p6-noble-gas-release-to-birth-ratio"
 kind = "annotation"
 created = "2026-09-22T15:24:58Z"
-modified = "2026-09-22T15:24:58Z"
+modified = "2026-10-27T01:27:05Z"
 
 [source]
 page = 6
@@ -222,7 +264,7 @@ region = [
 ```
 
 Noble Gas Release to Birth Ratio
-
+(R/B) fail is in eq 6a-6d
 # Annotation (p6) — Silver release to birth ratio
 
 ```toml
@@ -230,7 +272,7 @@ Noble Gas Release to Birth Ratio
 id = "annotation-p6-silver-release-to-birth-ratio"
 kind = "annotation"
 created = "2026-09-22T15:24:58Z"
-modified = "2026-09-22T15:24:58Z"
+modified = "2026-10-27T01:27:01Z"
 
 [source]
 page = 6
@@ -243,7 +285,7 @@ region = [
 ```
 
 Silver release to birth ratio
-
+(R/B) fail is in eq 6a-6d
 # Annotation (p6) — fission metal release to birth ratio
 
 ```toml
@@ -251,7 +293,7 @@ Silver release to birth ratio
 id = "annotation-p6-fission-metal-release-to-birth-ratio"
 kind = "annotation"
 created = "2026-09-22T15:24:58Z"
-modified = "2026-09-22T15:24:58Z"
+modified = "2026-10-27T01:26:57Z"
 
 [source]
 page = 6
@@ -265,6 +307,7 @@ region = [
 
 fission metal release to birth ratio
 
+(R/B) fail is in eq 6a-6d
 # Annotation (p6) — Note that release to birth ratio of failed
 
 ```toml
@@ -286,6 +329,48 @@ region = [
 
 Note that release to birth ratio of failed fuel and release to birth ratio in a node in the core are different.
 
+# Annotation (p6) — Quite conservative, neglects credit given to graphite matrix
+
+```toml
+[kovan]
+id = "annotation-p6-quite-conservative-neglects-credit-given-to-graphite-matrix"
+kind = "annotation"
+created = "2026-10-27T01:23:40Z"
+modified = "2026-10-27T01:23:40Z"
+
+[source]
+page = 6
+region = [
+    0.5251114964485168,
+    0.26265081763267517,
+    0.9618748426437378,
+    0.3667922914028168,
+]
+```
+
+Quite conservative, neglects credit given to graphite matrix
+
+# Annotation (p7) — See 5a
+
+```toml
+[kovan]
+id = "annotation-p7-see-5a"
+kind = "annotation"
+created = "2026-10-27T01:27:42Z"
+modified = "2026-10-27T01:27:42Z"
+
+[source]
+page = 7
+region = [
+    0.1147860735654831,
+    0.8298553824424744,
+    0.4728255569934845,
+    0.8844956755638123,
+]
+```
+
+See 5a
+
 # Annotation (p8) — Table 3 - all input variables needed for
 
 ```toml
@@ -306,6 +391,158 @@ region = [
 ```
 
 Table 3 - all input variables needed for starting TRISO ATOPS
+
+# Annotation (p8) — This is the analytical solution for release from
+
+```toml
+[kovan]
+id = "annotation-p8-this-is-the-analytical-solution-for-release-from"
+kind = "annotation"
+created = "2026-10-27T01:17:27Z"
+modified = "2026-10-27T01:26:26Z"
+
+[source]
+page = 8
+region = [
+    0.5519143342971802,
+    0.7791310548782349,
+    0.9695616364479065,
+    0.841817319393158,
+]
+```
+
+This is the analytical solution for release from sphere!
+It makes sense that upon breaking, 
+we caluclate the release fraction as the analytical 
+release fraction
+
+So this is (R/B) fail in earlier equations
+# Annotation (p8) — Calculates release fraction (failure fraction) for noble gases
+
+```toml
+[kovan]
+id = "annotation-p8-calculates-release-fraction-failure-fraction-for-noble-gases"
+kind = "annotation"
+created = "2026-10-27T04:22:29Z"
+modified = "2026-10-27T04:35:15Z"
+
+[source]
+page = 8
+region = [
+    0.08954662084579468,
+    0.593265950679779,
+    0.5117720365524292,
+    0.7327141165733337,
+]
+```
+
+Calculates release fraction (failure fraction) for noble gases
+# Annotation (p9) — Arrhenius, helps with the diffusion bits in aforementioned
+
+```toml
+[kovan]
+id = "annotation-p9-arrhenius-helps-with-the-diffusion-bits-in-aforementioned"
+kind = "annotation"
+created = "2026-10-27T01:25:41Z"
+modified = "2026-10-27T01:25:41Z"
+
+[source]
+page = 9
+region = [
+    0.513735294342041,
+    0.25316354632377625,
+    0.9166240096092224,
+    0.2995477020740509,
+]
+```
+
+Arrhenius, helps with the diffusion bits in aforementioned diffusion equations upon failure
+
+# Annotation (p9) — See 5b, silver i guess is more special
+
+```toml
+[kovan]
+id = "annotation-p9-see-5b-silver-i-guess-is-more-special"
+kind = "annotation"
+created = "2026-10-27T01:29:03Z"
+modified = "2026-10-27T01:29:03Z"
+
+[source]
+page = 9
+region = [
+    0.15849128365516663,
+    0.08329344540834427,
+    0.9135615825653076,
+    0.15706609189510345,
+]
+```
+
+See 5b, silver i guess is more special
+
+# Annotation (p9) — Graphite normally holds back Iodine and Tellurium, But
+
+```toml
+[kovan]
+id = "annotation-p9-graphite-normally-holds-back-iodine-and-tellurium-but"
+kind = "annotation"
+created = "2026-10-27T01:30:07Z"
+modified = "2026-10-27T01:30:07Z"
+
+[source]
+page = 9
+region = [
+    0.4968067407608032,
+    0.40469804406166077,
+    0.9206870794296265,
+    0.582831084728241,
+]
+```
+
+Graphite normally holds back Iodine and Tellurium, 
+But because of simplicity, assume that they diffuse thru like Xenon (noble gas)
+conservative simplifying assumption
+
+# Annotation (p9) — UO2 models used for UCO as no prior
+
+```toml
+[kovan]
+id = "annotation-p9-uo2-models-used-for-uco-as-no-prior"
+kind = "annotation"
+created = "2026-10-27T01:30:33Z"
+modified = "2026-10-27T01:30:33Z"
+
+[source]
+page = 9
+region = [
+    0.4865332543849945,
+    0.306662380695343,
+    0.9143790602684021,
+    0.4037545919418335,
+]
+```
+
+UO2 models used for UCO as no prior models exist
+
+# Annotation (p11) — Attenuation factor (ask dave inside TRISO-ATOPS comments LOLOLOL)
+
+```toml
+[kovan]
+id = "annotation-p11-attenuation-factor-ask-dave-inside-triso-atops-comments-lololol"
+kind = "annotation"
+created = "2026-10-27T05:28:12Z"
+modified = "2026-10-27T05:28:12Z"
+
+[source]
+page = 11
+region = [
+    0.05586970970034599,
+    0.39497852325439453,
+    0.4930925965309143,
+    0.5680935978889465,
+]
+```
+
+Attenuation factor (ask dave inside TRISO-ATOPS comments LOLOLOL)
 
 # Fig 5. Transient Temperature Profiles for the MHTGR test cases (5% curve from Ref 15)
 
