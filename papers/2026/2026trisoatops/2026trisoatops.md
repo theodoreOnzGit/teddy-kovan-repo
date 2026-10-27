@@ -544,6 +544,27 @@ region = [
 
 Attenuation factor (ask dave inside TRISO-ATOPS comments LOLOLOL)
 
+# Annotation (p11) — attenuation factor 1e8, capped if greater than 1e8.
+
+```toml
+[kovan]
+id = "annotation-p11-attenuation-factor-1e8-capped-if-greater-than-1e8"
+kind = "annotation"
+created = "2026-10-27T05:29:44Z"
+modified = "2026-10-27T05:29:44Z"
+
+[source]
+page = 11
+region = [
+    0.0484359972178936,
+    0.2588496506214142,
+    0.47625303268432617,
+    0.3518420159816742,
+]
+```
+
+attenuation factor 1e8, capped if greater than 1e8.
+
 # Fig 5. Transient Temperature Profiles for the MHTGR test cases (5% curve from Ref 15)
 
 ```toml
