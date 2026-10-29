@@ -438,6 +438,28 @@ region = [
 ```
 
 Calculates release fraction (failure fraction) for noble gases
+# Annotation (p8) — I suppose, this depicts the typical values for
+
+```toml
+[kovan]
+id = "annotation-p8-i-suppose-this-depicts-the-typical-values-for"
+kind = "annotation"
+created = "2026-10-29T08:36:18Z"
+modified = "2026-10-29T08:36:18Z"
+
+[source]
+page = 8
+region = [
+    0.09527016431093216,
+    0.08471746742725372,
+    0.9544205665588379,
+    0.3163059651851654,
+]
+```
+
+I suppose, this depicts the typical values for failure rates. 
+Some can be calculated using PANAMA like codes
+
 # Annotation (p9) — Arrhenius, helps with the diffusion bits in aforementioned
 
 ```toml
@@ -531,7 +553,7 @@ UO2 models used for UCO as no prior models exist
 id = "annotation-p11-attenuation-factor-ask-dave-inside-triso-atops-comments-lololol"
 kind = "annotation"
 created = "2026-10-27T05:28:12Z"
-modified = "2026-10-27T05:28:12Z"
+modified = "2026-10-29T08:24:48Z"
 
 [source]
 page = 11
@@ -545,6 +567,9 @@ region = [
 
 Attenuation factor (ask dave inside TRISO-ATOPS comments LOLOLOL)
 
+Okay but seriously,
+this is important because it implements diffusion equation analytically
+with conservative assumptions
 # Annotation (p11) — attenuation factor 1e8, capped if greater than 1e8.
 
 ```toml
@@ -566,67 +591,179 @@ region = [
 
 attenuation factor 1e8, capped if greater than 1e8.
 
-# Fig 2d
+# Annotation (p11) — These are coupled ODEs
 
 ```toml
 [kovan]
-id = "fig-2d"
-kind = "digitised_graph"
-created = "2026-10-02T03:08:53Z"
-modified = "2026-10-02T03:08:53Z"
+id = "annotation-p11-these-are-coupled-odes"
+kind = "annotation"
+created = "2026-10-29T08:24:18Z"
+modified = "2026-10-29T08:25:17Z"
 
 [source]
-page = 10
+page = 11
 region = [
-    0.5315681099891663,
-    0.6704328060150146,
-    0.8900474905967712,
-    0.8973318934440613,
+    0.5153884887695313,
+    0.4195176959037781,
+    0.9279043674468994,
+    0.5494657158851624,
 ]
-
-[extraction]
-method = "manual_digitisation"
-figure = "Fig 2d"
-x_label = "Temperature Deg C"
-y_label = "R/B_fail"
-x_axis = "linear scale, px 65.5138931274414 = 800 , px 401.0576171875 = 1200"
-y_axis = "log scale, px 281.5362243652344 = 0.000000001 , px 27.097064971923828 = 1"
-digitised_by = "teddy0 via kovan (gui, hand-placed)"
-digitised_at = "2026-10-02T03:08:51Z"
 ```
 
-### start of data series
+These are coupled ODEs
+Coolant has a balance equation, single node
+# Annotation (p11) — Graphite has a balance equation, single node
 
-### Series: Ag-111
+```toml
+[kovan]
+id = "annotation-p11-graphite-has-a-balance-equation-single-node"
+kind = "annotation"
+created = "2026-10-29T08:25:06Z"
+modified = "2026-10-29T08:25:06Z"
 
-```csv
-Temperature Deg C,R/B_fail
-847.0711910743305,0.0000000013337763832512554
-898.3312766210993,0.000022491929628477247
-950.9885849799366,0.0013434460130305052
-999.5613817586462,0.011370703711993273
-1049.7273432359748,0.038775447973047196
-1101.3632690408112,0.0906618340748025
-1150.6661912729417,0.16072491651956103
-1201.12340985085,0.1749593788783141
+[source]
+page = 11
+region = [
+    0.0676884651184082,
+    0.5442155003547668,
+    0.49038517475128174,
+    0.6655170917510986,
+]
 ```
 
-### Series: Ag-110m
+Graphite has a balance equation, single node
 
-```csv
-Temperature Deg C,R/B_fail
-847.0711910743305,0.000000007377228101863379
-848.263286087046,0.000000007082837126028035
-901.907561659246,0.00012440473336007373
-951.0394803938401,0.007745431211307733
-1002.0435427273526,0.06068793350839967
-1046.151058197828,0.20591171498508287
-1103.3716188081746,0.5471973943760837
-1149.8633243040813,1.0498308500662379
-1197.5471248127035,1.0498308500662379
+# Annotation (p12) — HPS has also some balanace equation, single node
+
+```toml
+[kovan]
+id = "annotation-p12-hps-has-also-some-balanace-equation-single-node"
+kind = "annotation"
+created = "2026-10-29T08:25:47Z"
+modified = "2026-10-29T08:25:47Z"
+
+[source]
+page = 12
+region = [
+    0.5358807444572449,
+    0.14441941678524017,
+    0.9593082666397095,
+    0.2830639183521271,
+]
 ```
 
-### end of series
+HPS has also some balanace equation, single node
+
+# Annotation (p12) — Plateout has a single equation also ODE single
+
+```toml
+[kovan]
+id = "annotation-p12-plateout-has-a-single-equation-also-ode-single"
+kind = "annotation"
+created = "2026-10-29T08:26:05Z"
+modified = "2026-10-29T08:26:05Z"
+
+[source]
+page = 12
+region = [
+    0.10233164578676224,
+    0.4336361289024353,
+    0.5137133598327637,
+    0.6177458167076111,
+]
+```
+
+Plateout has a single equation also
+ODE single node
+
+# Annotation (p12) — Booth model integrates the diffusion equation with conservative
+
+```toml
+[kovan]
+id = "annotation-p12-booth-model-integrates-the-diffusion-equation-with-conservative"
+kind = "annotation"
+created = "2026-10-29T08:26:30Z"
+modified = "2026-10-29T08:30:14Z"
+
+[source]
+page = 12
+region = [
+    0.5010378956794739,
+    0.7053912281990051,
+    0.9581260085105896,
+    0.9094401597976685,
+]
+```
+
+Booth model integrates the diffusion equation with 
+conservative assumptions
+
+Temperature depdence comes through here.
+# Annotation (p12) — Booth diffusion and breakthrough models temperature dependence is
+
+```toml
+[kovan]
+id = "annotation-p12-booth-diffusion-and-breakthrough-models-temperature-dependence-is"
+kind = "annotation"
+created = "2026-10-29T08:30:59Z"
+modified = "2026-10-29T08:30:59Z"
+
+[source]
+page = 12
+region = [
+    0.5392594933509827,
+    0.5952801704406738,
+    0.9442135691642761,
+    0.7000328302383423,
+]
+```
+
+Booth diffusion and breakthrough models 
+temperature dependence is here, affects failure rate 
+Plus diffusion
+
+# Annotation (p13) — Ideal gas "breathing" assumption... may not always be
+
+```toml
+[kovan]
+id = "annotation-p13-ideal-gas-breathing-assumption-may-not-always-be"
+kind = "annotation"
+created = "2026-10-29T08:27:43Z"
+modified = "2026-10-29T08:27:43Z"
+
+[source]
+page = 13
+region = [
+    0.3743782341480255,
+    0.8328894972801208,
+    0.560149610042572,
+    0.8998453617095947,
+]
+```
+
+Ideal gas "breathing" assumption... may not always be applicable, but the simple model works. Doesn't account for advection
+
+# Annotation (p13) — This combines the failure release fraction due to
+
+```toml
+[kovan]
+id = "annotation-p13-this-combines-the-failure-release-fraction-due-to"
+kind = "annotation"
+created = "2026-10-29T08:37:40Z"
+modified = "2026-10-29T08:37:40Z"
+
+[source]
+page = 13
+region = [
+    0.03539261594414711,
+    0.42937037348747253,
+    0.9223923683166504,
+    0.5638919472694397,
+]
+```
+
+This combines the failure release fraction due to booth model (diffusion from spheres
+solved analytically with boundary conditions) and then uses the failure fractions supplied.
 
 # Fig 5. Transient Temperature Profiles for the MHTGR test cases (5% curve from Ref 15)
 
@@ -783,6 +920,29 @@ Time (h),Temperature Degrees C
 ```
 
 ### end of series
+# Annotation (p17) — Right, run ATOPS individually, at one node then
+
+```toml
+[kovan]
+id = "annotation-p17-right-run-atops-individually-at-one-node-then"
+kind = "annotation"
+created = "2026-10-29T08:34:57Z"
+modified = "2026-10-29T08:34:57Z"
+
+[source]
+page = 17
+region = [
+    0.05823170393705368,
+    0.5405343174934387,
+    0.4835148751735687,
+    0.6518883109092712,
+]
+```
+
+Right, run ATOPS individually, at one node
+
+then combine them for a release... Multiple ODE models that don't interact with each other
+
 # Fig 6. Total Release Plot for 305-MWth MHTGR depressurization accident.
 
 ```toml
@@ -1266,6 +1426,27 @@ Time (h),Release (Ci) log scale
 ```
 
 ### end of series
+
+# Annotation (p26) — Porbably have this in V&V tests
+
+```toml
+[kovan]
+id = "annotation-p26-porbably-have-this-in-v-v-tests"
+kind = "annotation"
+created = "2026-10-29T08:38:23Z"
+modified = "2026-10-29T08:38:23Z"
+
+[source]
+page = 26
+region = [
+    0.05091256648302078,
+    0.06727170199155807,
+    0.9742884039878845,
+    0.6170238256454468,
+]
+```
+
+Porbably have this in V&V tests
 
 # Annotation (p29) — 15. S. J. Ball, “Overview of Modular HTGR
 
