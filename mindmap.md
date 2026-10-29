@@ -625,3 +625,93 @@ source = "artifact:wang2023experimental#annotation-p3-langmuir-hinshelwood-model
 target = "collection:nuclear-engineering/safety/accident-analysis/htgr-safety/htr-10/water-ingress/graphite-oxidation-via-steam"
 kind = "related_to"
 ```
+
+# relation: artifact:2016radiation#figure-2-tede-as-function-of-downwind-distance-from-the-npp-site-in-different-stability-classes-a-f related_to collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/ap-1000
+
+```toml
+[kovan]
+id = "55eee4f8aa99"
+kind = "relation"
+created = "2026-10-01T01:14:30Z"
+modified = "2026-10-01T01:14:30Z"
+
+[relation]
+source = "artifact:2016radiation#figure-2-tede-as-function-of-downwind-distance-from-the-npp-site-in-different-stability-classes-a-f"
+target = "collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/ap-1000"
+kind = "related_to"
+```
+
+# relation: artifact:dadda2024source#annotation-p4-gaussian-plume-equation related_to collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/models/gaussian-plume
+
+```toml
+[kovan]
+id = "37710a55fcb8"
+kind = "relation"
+created = "2026-10-01T01:31:33Z"
+modified = "2026-10-01T01:31:33Z"
+
+[relation]
+source = "artifact:dadda2024source#annotation-p4-gaussian-plume-equation"
+target = "collection:nuclear-engineering/safety/accident-analysis/dose-vs-distance-tede/models/gaussian-plume"
+kind = "related_to"
+```
+
+# relation: artifact:conlinjeremylloyd2017njoy21#annotation-p2-njoy-is-to-be-modernised related_to collection:nuclear-engineering/scientific-computing/codes/njoy/2021
+
+```toml
+[kovan]
+id = "27c7bb11a1e7"
+kind = "relation"
+created = "2026-10-02T06:38:02Z"
+modified = "2026-10-02T06:38:02Z"
+
+[relation]
+source = "artifact:conlinjeremylloyd2017njoy21#annotation-p2-njoy-is-to-be-modernised"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/2021"
+kind = "related_to"
+```
+
+# relation: artifact:conlinjeremylloyd2017njoy21#annotation-p2-goals-of-njoy21-make-njoy-more-flexible-easier related_to collection:nuclear-engineering/scientific-computing/codes/njoy/2021
+
+```toml
+[kovan]
+id = "29e28f5172e0"
+kind = "relation"
+created = "2026-10-02T06:38:13Z"
+modified = "2026-10-02T06:38:13Z"
+
+[relation]
+source = "artifact:conlinjeremylloyd2017njoy21#annotation-p2-goals-of-njoy21-make-njoy-more-flexible-easier"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/2021"
+kind = "related_to"
+```
+
+# relation: artifact:kabach2021intercomparison#annotation-p2-njoy21-and-necp-atlas-v1-2-were-compared-both-written related_to collection:nuclear-engineering/scientific-computing/codes/njoy/2021
+
+```toml
+[kovan]
+id = "2ae05be0233f"
+kind = "relation"
+created = "2026-10-02T06:38:31Z"
+modified = "2026-10-02T06:38:31Z"
+
+[relation]
+source = "artifact:kabach2021intercomparison#annotation-p2-njoy21-and-necp-atlas-v1-2-were-compared-both-written"
+target = "collection:nuclear-engineering/scientific-computing/codes/njoy/2021"
+kind = "related_to"
+```
+
+# relation: artifact:kabach2021intercomparison#annotation-p2-njoy21-and-necp-atlas-v1-2-were-compared-both-written related_to collection:nuclear-engineering/scientific-computing/codes/necp-atlas
+
+```toml
+[kovan]
+id = "03256a29d955"
+kind = "relation"
+created = "2026-10-02T06:38:56Z"
+modified = "2026-10-02T06:38:56Z"
+
+[relation]
+source = "artifact:kabach2021intercomparison#annotation-p2-njoy21-and-necp-atlas-v1-2-were-compared-both-written"
+target = "collection:nuclear-engineering/scientific-computing/codes/necp-atlas"
+kind = "related_to"
+```

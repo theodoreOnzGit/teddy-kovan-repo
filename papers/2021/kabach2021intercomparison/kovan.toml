@@ -1,0 +1,12 @@
+schema_version = 1
+id = "kabach2021intercomparison"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+pdf = "../../../literature/open-corpus/theodore-open-corpus/kabach2021intercomparison.pdf"
+repo = "open"
+
+[classification]
+topics = ["unsorted"]
