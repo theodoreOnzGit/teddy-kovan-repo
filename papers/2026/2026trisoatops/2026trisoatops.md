@@ -61,7 +61,7 @@ Wonder what's the diff
 id = "annotation-p4-so-this-is-where-plateout-is-where-condensable"
 kind = "annotation"
 created = "2026-10-23T02:59:10Z"
-modified = "2026-10-23T02:59:10Z"
+modified = "2026-10-27T08:48:55Z"
 
 [source]
 page = 4
@@ -73,8 +73,9 @@ region = [
 ]
 ```
 
-So this is where plateout is. Where condensable fission products plate out (condense) on the cool metallic surface of the piping system
-
+So this is where plateout is. 
+Where condensable fission products plate out (condense) on the cool metallic surface of the piping system
+This is also where nodes are discussed
 # Annotation (p4) — Graphite selectively traps metallic FPs, but noble gases,
 
 ```toml
