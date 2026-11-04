@@ -1,0 +1,21 @@
+schema_version = 1
+id = "nureg-1537-part1"
+kind = "paper"
+
+[source]
+access = "open"
+storage = "local"
+corpus = "nureg-1537-part1"
+
+[classification]
+topics = [
+    "02-nuclear-safety",
+    "04-funding-and-financing",
+    "07-regulatory-framework",
+    "08-radiation-protection",
+    "09-electrical-grid",
+    "12-site-and-supporting-facilities",
+    "13-environmental-protection",
+    "16-nuclear-fuel-cycle",
+    "17-radioactive-waste-management",
+]
